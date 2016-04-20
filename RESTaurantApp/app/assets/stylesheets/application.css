@@ -1,0 +1,72 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require semantic_ui/semantic_ui
+ *= require_self
+ */
+
+
+
+ @import url(https://fonts.googleapis.com/css?family=Londrina+Solid);
+
+
+h2.profile {
+  font: 6em 'Londrina Solid';
+  text-align: center;
+  margin-top: 40px;
+}
+
+.bg-main, .bg-blue, .bg-pink {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.bg-main {
+  background: url('https://joetowey.files.wordpress.com/2015/10/plexus-balloons1.gif') no-repeat fixed;
+  background-size: cover;
+  opacity: 0.75;
+}
+
+.bg-blue { background-color: rgb(82,175,243); }
+
+.bg-pink { background-color: rgb(243,135,138); }
+
+.ui.card {
+  padding-top: 30px !important;
+}
+.done {
+  text-decoration: line-through;
+  color: gray !important;
+}
+#page-wrapper {
+  position: absolute;
+  width: 100%;
+  height: 85%;
+  top: 15%;
+  left: 0;
+}
+#welcome {
+  font: 10rem 'Londrina Solid';
+  text-align: center; 
+  margin-bottom: 20px;
+}
+
+#login-box {
+  position: relative;
+}
+
+.button > a { color: white;}
+

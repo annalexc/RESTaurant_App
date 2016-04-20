@@ -1,0 +1,54 @@
+<div class="page-wrapper">
+  <!-- LOGIN TEXT -->
+  <div class="welcome">log.in</div>
+
+  <!-- LOGIN BOX CONTAINER -->
+  <div class="ui text container" id="login-box">
+    <div class="ui two column middle aligned very relaxed stackable grid">
+      <div class="column">
+          
+        <!-- LOGIN FORM BEGIN -->
+        <div class="ui form">
+          <%= form_tag '/sessions', method: :post do %>
+              
+            <!-- USERNAME FIELD -->
+            <div class="field">
+              <%= label_tag :username %>
+              <div class="ui left icon input">
+                <i class="user icon"></i>
+                <%= text_field_tag :username %>
+              </div>
+            </div>
+
+            <!-- PASSWORD FIELD -->
+            <div class="field">
+              <%= label_tag :password %>
+              <div class="ui left icon input">
+                <i class="lock icon"></i>
+                <%= password_field_tag :password %> 
+              </div>
+            </div>
+
+            <!-- SUBMIT BUTTON -->
+            <%= submit_tag "Log In", class: 'ui teal submit button' %>
+          <% end %>
+        </div> <!-- LOGIN FORM END -->
+      </div>
+        
+      <!-- VERTICAL DIVIDER -->
+      <div class="ui vertical divider"> OR </div>
+
+      <!-- SIGN UP BUTTON CONTAINER -->
+      <div class="center aligned column">
+        <h3 class="ui header">New around here?</h3>
+          
+        <!-- SIGN UP BUTTON -->
+        <div class="ui huge primary right labeled icon button">
+          <i class="add user icon"></i>
+          <%= link_to "Sign Up", new_user_path %>
+        </div>
+      </div> <!-- SIGN UP CONTAINER END -->
+    </div>
+  </div> <!-- LOG BOX CONTAINER END -->
+</div>
+

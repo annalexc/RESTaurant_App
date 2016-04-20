@@ -1,0 +1,47 @@
+<div class="bg-pink"></div>
+<div class="ui container">
+  <div id="page-wrapper">
+    <div id="welcome">sign.up</div>
+    <div class="ui text container" id="login-box">
+      <div class="ui form">
+        <%= form_for @user  do |f| %>
+          <div class="two fields">    
+            <div class="field">
+              <%= f.label :name %>
+              <%= f.text_field :name, required: true %>
+            </div>
+            <div class="field">
+              <%= f.label :email %>
+              <%= f.text_field :email, required: true %>
+            </div>
+          </div>
+          <div class="three fields"> 
+            <div class="field">
+              <%= f.label :username %>
+              <div class="ui left icon input">
+                <%= f.text_field :username, required: true %>
+                <i class="user icon"></i>
+              </div>
+            </div>
+            <div class="field">
+              <%= f.label :password %>
+              <div class="ui left icon input">
+                <%= f.password_field :password, required: true %>
+                <i class="lock icon"></i>
+              </div>
+            </div>
+            <div class="field">
+              <%= f.label "Confirm password" %>
+              <div class="ui left icon input">
+                <%= f.password_field :password_confirmation, required: true %>
+                <i class="lock icon"></i>
+              </div>
+            </div>
+          </div>
+          <p></p>
+          <%= f.submit :class => 'ui big pink button' %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>

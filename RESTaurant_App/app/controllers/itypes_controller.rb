@@ -1,0 +1,2 @@
+class ItypesController < ApplicationController
+end
