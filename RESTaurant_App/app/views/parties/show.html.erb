@@ -1,0 +1,24 @@
+<div class="ui center aligned vertical segment">
+
+<h1>Party of <%= @party.size %> at Table <%= @party.table.table_num %></h1>
+
+<div class="ui vertical segment">
+  <div class="ui four centered doubling cards">
+    <% @party.customers.each do |customer| %>
+      <div class="ui card ">
+        <div class="content">
+          <div class="header">Customer #<%= customer.customer_num %></div>
+        </div>
+      </div>
+    <% end %>
+  </div>
+  <!-- CHECKOUT -->
+  <div class="ui form">
+    <%= form_for @party do |f| %> 
+      <%= f.hidden_field(@party.is_paid, value: 1) %>
+      <%= f.hidden_field(@party.table.is_available, value: 1) %>
+      <p></p>
+      <%= f.submit 'Checkout', :class => 'ui big teal button' %>
+    <% end %>
+  </div>
+</div>

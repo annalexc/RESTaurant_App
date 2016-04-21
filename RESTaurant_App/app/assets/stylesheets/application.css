@@ -35,6 +35,9 @@
   display: flex;
 }
 
+.landing {
+  width: 290px;
+}
 .welcome {
   font: 10rem 'Grand Hotel';
   text-align: center; 
@@ -42,10 +45,11 @@
   line-height: 1.1;
 }
 
-h2.profile {
-  font: 6em 'Grand Hotel';
+h2.section-header {
+  font: 2em 'Grand Hotel';
   text-align: center;
   margin-top: 40px;
+  text-transform: capitalize;
 }
 
 .bg-main, .bg-blue, .bg-pink {
@@ -67,18 +71,25 @@ h2.profile {
 .bg-pink { background-color: rgb(243,135,138); }
 
 .ui.card {
-  padding-top: 30px !important;
+  padding: 20px 0 !important;
 }
 .done {
   text-decoration: line-through;
   color: gray !important;
 }
 
+.selectable-table > div:hover {
+  background-color: #C8BA1D;
+}
+
+.unselectable-table > div {
+  background-color: rgb(211,211,211);
+}
 
 
 #login-box {
   position: relative;
 }
 
-.button>a, .button>a:hover { color: white;}
+a.button, a.button:hover { color: black !important;}
 

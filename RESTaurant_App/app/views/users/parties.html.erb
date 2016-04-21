@@ -1,0 +1,22 @@
+<div class="ui center aligned vertical segment">
+    <h1>Your Parties</h1>
+    <a href="/users/landing" class="ui yellow right labeled icon button">
+      <i class="home icon"></i>
+      Home
+    </a>
+    <p></p>
+    <div class="ui four centered doubling cards">
+      <% @parties.each do |party| %>
+        <div class="ui card ">
+          <div class="content">
+            <div class="header">
+              <%= link_to "Party of " + "#{party.size}", party_path(party.id) %>
+            </div>
+            <div class="meta">
+              <span class="category">Table <%= party.table.table_num %></span>
+            </div>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>

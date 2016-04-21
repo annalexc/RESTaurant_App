@@ -1,0 +1,22 @@
+<div class="ui center aligned vertical segment">
+
+<h1>New Party for Table <%= @table.table_num %></h1>
+
+<div class="ui text center aligned container">
+  <div class="ui form">
+    <%= form_for @party do |f| %> 
+          <div class="field">
+          <%= f.label 'Number of Guests' %>
+          <%= f.number_field(:size, min: 1, max: @table.num_seats) %>
+          </div>
+        
+        <div class="field">
+          <%= f.hidden_field(:table_id, value: @table.id) %>
+        </div>
+          <p></p>
+          <%= f.submit 'Create Party', :class => 'ui big teal button' %>
+        <% end %>
+      </div>
+    </div>
+</div>
+</div>

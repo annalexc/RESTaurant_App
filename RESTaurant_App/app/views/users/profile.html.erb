@@ -1,0 +1,37 @@
+<div class="page-wrapper">
+<h2 class="profile">Welcome back, <%= @user.name %>!</h2>
+<div class="ui text container">
+  <div class="ui center aligned vertical segment">
+    <p class="centered">What would you like to do today?</p>
+  </div>
+  <div class="ui center aligned vertical segment">
+    <%= link_to "Add New Table", '/tables/new', class: 'ui big teal button' %>
+  </div>
+  <div class="ui center aligned vertical segment">
+    <%= link_to "Log Out", destroy_session_path, method: :delete, class: 'ui big grey button' %>
+  </div>
+  <div class="ui vertical segment">
+    <div class="ui two stackable cards">
+      <% @tables.each do |table| %>
+        <div class="ui card ">
+          <div class="content">
+              
+              <!-- User Action Icons -->
+              <a rel="nofollow" data-method="delete" href="/tables/<%= table.id %>"><i class="right floated large teal remove icon"></i></a>
+              <a href="/tables/<%= table.id %>/edit"><i class="right floated large teal edit icon"></i></a>
+              <!-- End User Action Icons -->
+
+            <div class="header">Table #<%= table.table_num %></div>
+
+            <div class="meta">
+              <span class="category">No Customers Yet</span>
+            </div>
+            <div class="ui divider"></div>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
+<div class="page-wrapper">
+  

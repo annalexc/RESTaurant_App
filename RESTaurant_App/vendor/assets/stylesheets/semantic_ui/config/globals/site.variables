@@ -6,7 +6,7 @@
 @secondaryColor : @grey;
 @red            : #B03060;
 @orange         : #D9853B;
-@yellow         : #FFF056;
+@yellow         : #C8BA1D;
 @olive          : #32CD32;
 @green          : #016936;
 @teal           : #558C89;
@@ -19,4 +19,4 @@
 @black          : #000000;
 
 
-@linkColor      : #009FDA;
+@linkColor      : @black;

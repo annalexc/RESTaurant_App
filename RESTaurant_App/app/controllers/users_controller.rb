@@ -16,12 +16,20 @@ class UsersController < ApplicationController
   def login
   end
 
+  def landing
+    @user = current_user
+  end
+
   def profile
     @user = current_user
     @tables = Table.where(user_id: @user.id)
-
   end
 
+  def parties
+    @user = current_user
+    @parties = Party.where(user_id: @user.id)
+  end
+  
   private
 
   def user_params

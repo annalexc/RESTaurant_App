@@ -1,6 +1,7 @@
 class CreateOrders < ActiveRecord::Migration
   def change
     create_table :orders do |t|
+      t.string :comments
       t.references :customer, index: true, foreign_key: true
       t.references :item, index: true, foreign_key: true
 

@@ -2,8 +2,8 @@ class CreateTables < ActiveRecord::Migration
   def change
     create_table :tables do |t|
       t.integer :table_num
-      t.integer :is_paid
-      t.references :user, index: true, foreign_key: true
+      t.integer :num_seats
+      t.integer :is_available, default: 1
 
       t.timestamps null: false
     end

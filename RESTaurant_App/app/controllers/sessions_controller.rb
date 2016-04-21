@@ -14,7 +14,7 @@ class SessionsController < ApplicationController
 
       # I now have a session hash that I can work with, :user_id is unique in this case
       session[:user_id] = user.id
-      redirect_to profile_path
+      redirect_to landing_path
     else
       redirect_to login_path
     end   
