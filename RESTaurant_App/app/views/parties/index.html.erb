@@ -1,11 +1,20 @@
+<!-- PARTIES INDEX PAGE -->
+<!-- *Note*: I'm using this page, not to show ALL parties, but to show tables to which parties can be assigned -->
+<!-- As a user, I want to be able to: -->
+<!-- (1) VIEW all tables, including indiciations of whether those tables are available or not -->
+<!-- (2) SELECT a table to subsequently add a party -->
+
+
 <div class="ui center aligned vertical segment">
     <h1>View All Tables</h1>
     <p>Select an available table to assign a new party </p>
+    
+    <!-- HOME BUTTON here for now.... -->
     <a href="/users/landing" class="ui yellow right labeled icon button">
-      <i class="home icon"></i>
-      Home
-    </a>
+      <i class="home icon"></i>Home </a>
     <div class="ui hidden divider"></div>
+    <!-- HOME BUTTON END -->
+    
     <div class="ui centered grid">
       <% @tables.each do |table| %>
         <% if table.is_available == 1 %>
@@ -18,14 +27,14 @@
             </div>
           <% end %>
         <% else %>
-          <%= link_to('', class: 'unselectable-table') do %>
+          <div class='unselectable-table'>
             <div class="ui circular segment">
-              <h3 class="ui header">Table <%= table.table_num %>
+              <h3 class="ui disabled header">Table <%= table.table_num %>
                 <div class="sub header">Seats: <%= table.num_seats %></div>
               </h3>
               <div class="ui bottom attached label">Unavailable</div>
             </div>
-          <% end %>
+          </div>
         <% end %>
       <% end %>
     </div>

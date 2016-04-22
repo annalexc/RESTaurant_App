@@ -27,7 +27,7 @@ class UsersController < ApplicationController
 
   def parties
     @user = current_user
-    @parties = Party.where(user_id: @user.id)
+    @active_parties = Party.where(user_id: @user.id, is_paid: 0)
   end
   
   private

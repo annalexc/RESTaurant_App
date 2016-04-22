@@ -1,9 +1,10 @@
 class PartiesController < ApplicationController
 
   include SessionsHelper
+
   def index
     @new_party = Party.new
-    @tables = Table.all
+    @tables = Table.all.order(:id)
   end
 
   def new
@@ -13,12 +14,13 @@ class PartiesController < ApplicationController
 
   def show
     @party = Party.find(params[:id])
+    
   end
 
   def create
     party = Party.create(party_params.merge({user_id: current_user.id}))
-    table = Table.find(party.table_id)
-    table.update_column(:is_available, 0)
+    current_table = Table.find(party.table_id)
+    current_table.update_column(:is_available, 0)
     for i in 1..party.size
       Customer.create(customer_num: i, party_id: party.id)
     end
@@ -32,6 +34,9 @@ class PartiesController < ApplicationController
   def update
     party = Party.find(params[:id])
     party.update(party_params)
+    if (party.is_paid == 1)
+      party.table.update_column(:is_available, 1)
+    end
     redirect_to parties_path
   end
 

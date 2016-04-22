@@ -1,22 +1,34 @@
+<!-- PARTY SHOW PAGE -->
+<!-- As a user, I want to be able to: -->
+<!-- (1) VIEW the details of a single UNPAID party -->
+<!-- (2) VIEW all the comprising guests of that party -->
+<!-- (3) SELECT a guest to subsequently create a order -->
+<!-- (3) CHECKOUT the party (mark the party as PAID) -->
+
 <div class="ui center aligned vertical segment">
 
-<h1>Party of <%= @party.size %> at Table <%= @party.table.table_num %></h1>
+<h1>Table <%= @party.table.table_num %> > Party of <%= @party.size %> </h1>
 
-<div class="ui vertical segment">
-  <div class="ui four centered doubling cards">
+<!-- HOME BUTTON here for now.... -->
+<a href="/users/landing" class="ui yellow right labeled icon button">
+  <i class="home icon"></i>Home </a>
+<div class="ui hidden divider"></div>
+<!-- HOME BUTTON END -->
+<div class="ui text container">
+<div class="ui centered grid">
+  <div class="ui vertical segment"></div>
     <% @party.customers.each do |customer| %>
-      <div class="ui card ">
-        <div class="content">
-          <div class="header">Customer #<%= customer.customer_num %></div>
-        </div>
-      </div>
+      
+      <%= link_to(customer_path(customer.id), class: 'ui center aligned huge icon header') do %>
+        <i class="circular inverted teal user icon"></i>
+         <div class="ui sub header">Cust #<%= customer.customer_num %></div>
+      <% end %>
     <% end %>
   </div>
   <!-- CHECKOUT -->
   <div class="ui form">
     <%= form_for @party do |f| %> 
-      <%= f.hidden_field(@party.is_paid, value: 1) %>
-      <%= f.hidden_field(@party.table.is_available, value: 1) %>
+      <%= f.hidden_field :is_paid, value: 1 %>
       <p></p>
       <%= f.submit 'Checkout', :class => 'ui big teal button' %>
     <% end %>

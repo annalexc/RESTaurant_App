@@ -13,3 +13,25 @@
 //= require jquery
 //= require jquery_ujs
 //= require semantic_ui/semantic_ui
+
+$(function(){
+  $('.user-selection').on('click', function(){
+      var selectText = $(this).find('.select-text').text().trim();
+      console.log(selectText);
+
+      var optionValue = parseInt($('form option').filter(function () { return $(this).text() == selectText; }).val());
+      console.log(optionValue);
+
+      $('.small.modal').find('.header').text("Add Item -  " + selectText);
+
+      $('form select').val(optionValue);
+
+
+    
+  });
+
+  $('.small.modal').modal('attach events', '.user-selection', 'show');
+
+
+
+});

@@ -3,13 +3,15 @@ Rails.application.routes.draw do
 
   resources :users, only: [:new, :create]  
   resources :tables do
-    resources :parties 
+    resources :parties, only: [:new, :create] 
+  end
+  resources :customers do
+    resources :orders 
   end
 
 
 
   # resources :parties
-  resources :customers
   resources :parties
 
   get '/users/login'    => "users#login", as: :login

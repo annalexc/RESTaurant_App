@@ -1,5 +1,5 @@
 class Customer < ActiveRecord::Base
-  belongs_to :table
+  belongs_to :party
   has_many :orders
   has_many :items, through: :orders
 end

@@ -10,12 +10,21 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_self
  *= require semantic_ui/semantic_ui
+ *= require_self
  */
 
 @import url(https://fonts.googleapis.com/css?family=Londrina+Solid);
 @import url(https://fonts.googleapis.com/css?family=Grand+Hotel);
+
+
+
+body.ui.container {
+  background: url('tealbg.png') no-repeat fixed;
+  background-size: fixed;
+  background-color: rgb(172,199,198);
+}
+
 
 
 .page-wrapper {
@@ -77,14 +86,30 @@ h2.section-header {
   text-decoration: line-through;
   color: gray !important;
 }
+.ui.grid >.row {
+  padding-bottom: 0;
+}
 
-.selectable-table > div:hover {
+/* Styles for Available & Unavailable Tables */
+
+.selectable-table > .ui.circular.segment {
+  background-color: rgb(222,213,119);
+}
+
+.selectable-table > .ui.circular.segment:hover {
   background-color: #C8BA1D;
 }
 
-.unselectable-table > div {
+.unselectable-table > .ui.circular.segment {
   background-color: rgb(211,211,211);
 }
+
+/********************************************/
+
+.hidden {
+  /*visibility: hidden;*/
+}
+
 
 
 #login-box {
@@ -92,4 +117,13 @@ h2.section-header {
 }
 
 a.button, a.button:hover { color: black !important;}
+
+
+@media all and (max-width:630px) {
+  body.ui.container {
+    background-image: none;
+    /*background-color: rgb(172,199,198);*/
+  }
+}
+
 
