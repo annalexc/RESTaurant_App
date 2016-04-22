@@ -1,0 +1,21 @@
+
+<div class="ui form selection">
+  <div class="ui padded segment">
+    <%= form_for @new_order , url: customer_orders_path(@customer.id) do |f| %>   
+      <div class="no-display field">
+        <%= f.label 'Menu Item' %>
+        <%= f.collection_select(:item_id, @items, :id, :description, required: true) %>
+      </div> 
+      <div class="field">
+        <%= f.hidden_field(:customer_id, value: @customer.id) %>
+      </div>
+      <div class="field">
+        <%= f.label :comments, 'Special Requests?' %>
+        <%= f.text_field :comments %>
+      </div>
+      <div class="actions">
+        <%= f.submit 'Add To Order', :class => 'ui right floated teal button' %>
+      </div>
+    <% end %>
+  </div>
+</div>

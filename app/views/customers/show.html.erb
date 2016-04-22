@@ -1,0 +1,29 @@
+<!-- CUSTOMER SHOW PAGE -->
+<!-- As a user, I want to be able to: -->
+<!-- (1) VIEW the menu selection of a given CUSTOMER -->
+
+
+<div class="ui center aligned vertical segment">
+
+<h1>Table <%= @customer.party.table.table_num %> > Party of <%= @customer.party.size %> > Customer <%= @customer.customer_num %> > Order</h1>
+
+
+<!-- HOME BUTTON here for now.... -->
+<a href="/users/landing" class="ui yellow right labeled icon button">
+  <i class="home icon"></i>Home </a>
+<div class="ui hidden divider"></div>
+<!-- HOME BUTTON END -->
+
+  <%= render 'menu' %> 
+
+</div>
+
+
+<!-- MODAL -->
+
+<div class="ui small modal">
+  <i class="close icon"></i>
+  <div class="header"></div>
+  <%= render 'additem_form' %> 
+  
+</div>
