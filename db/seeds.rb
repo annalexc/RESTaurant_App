@@ -14,13 +14,13 @@ side = Itype.create(description: 'Side')
 
 
 Item.create([
-    { description: 'Cold Brew Icded Coffee', price: 2.75, itype_id: drink_na.id },
+    { description: 'Cold Brew Iced Coffee', price: 2.75, itype_id: drink_na.id },
     { description: 'Southern Tier Pumking', price: 7.50, itype_id: drink_b.id },
-    { description: 'Red Wine in a Can', price: 4.50, itype_id: drink_w.id },
+    { description: 'Underwood Pinot Noir (Can)', price: 4.50, itype_id: drink_w.id },
     { description: 'Fried Mac & Cheese Bites', price: 8.85, itype_id: appetizer.id },
     { description: 'Baked Stuffed Mushrooms', price: 8.00, itype_id: appetizer.id },
     { description: 'Arugula & Truffle Pizza', price: 14.25, itype_id: entree.id },
-    { description: 'Penne all Vodka & Peas', price: 13.00, itype_id: entree.id },
+    { description: 'Penne alla Vodka & Peas', price: 13.00, itype_id: entree.id },
     { description: 'Sticky Toffee Pudding', price: 6.50, itype_id: dessert.id },
     { description: 'Pumpkin Pie a la Mode', price: 4.95, itype_id: dessert.id },
     { description: 'Roasted Brussel Sprouts', price: 4.25, itype_id: side.id },

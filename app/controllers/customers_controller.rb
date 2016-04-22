@@ -13,8 +13,7 @@ class CustomersController < ApplicationController
     @desserts = Item.where(itype_id: 7)
     @sides = Item.where(itype_id: 8)
     @new_order = Order.new
-
-    @foo = Array.new
+    @order_size = Order.where(customer_id: @customer.id).size
   end
 
   def new

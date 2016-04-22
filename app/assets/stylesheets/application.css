@@ -108,7 +108,10 @@ h2.section-header {
 
 .no-display { display:none; }
 
-
+div.subtotal.row {
+  padding-top: 0 !important;
+  font-style: italic;
+}
 
 #login-box {
   position: relative;

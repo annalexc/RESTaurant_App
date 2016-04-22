@@ -15,22 +15,31 @@
 <div class="ui hidden divider"></div>
 <!-- HOME BUTTON END -->
 <div class="ui text container">
-<div class="ui centered grid">
-  <div class="ui vertical segment"></div>
-    <% @party.customers.each do |customer| %>
-      
-      <%= link_to(customer_path(customer.id), class: 'ui center aligned huge icon header') do %>
-        <i class="circular inverted teal user icon"></i>
-         <div class="ui sub header">Cust #<%= customer.customer_num %></div>
+  <div class="ui centered grid">
+    <div class="ui vertical segment"></div>
+      <% @party.customers.each do |customer| %> 
+        <%= link_to(customer_path(customer.id), class: 'ui center aligned huge icon header') do %>
+          <i class="circular inverted teal user icon"></i>
+          <div class="ui sub header">Guest <%= customer.customer_num %> 
+            <div class="small ui label"><%= customer.orders.size %></div>
+          </div>
+        <% end %>
       <% end %>
-    <% end %>
+    </div>
+
+<div class="ui hidden divider"></div>
+<button class="ui secondary button view-receipt">
+  View Receipt
+</button>
+  
+  <!-- CHECKOUT MODAL -->
+
+  <div class="ui medium modal">
+    <i class="close icon"></i>
+    <%= render 'partyreceipt' %>
   </div>
-  <!-- CHECKOUT -->
-  <div class="ui form">
-    <%= form_for @party do |f| %> 
-      <%= f.hidden_field :is_paid, value: 1 %>
-      <p></p>
-      <%= f.submit 'Checkout', :class => 'ui big teal button' %>
-    <% end %>
-  </div>
-</div>
+
+
+
+
+

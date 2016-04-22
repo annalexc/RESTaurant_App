@@ -3,6 +3,8 @@ class OrdersController < ApplicationController
   include SessionsHelper
 
   def index
+    @customer = Customer.find(params[:customer_id])
+    @orders = Order.where(customer_id: @customer.id)
    
   end
 

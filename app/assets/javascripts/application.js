@@ -15,6 +15,8 @@
 //= require semantic_ui/semantic_ui
 
 $(function(){
+
+  // SHOW MODAL functionality for CUSTOMER ORDER SELECTION
   $('.user-selection').on('click', function(){
       var selectText = $(this).find('.select-text').text().trim();
       console.log(selectText);
@@ -25,13 +27,13 @@ $(function(){
       $('.small.modal').find('.header').text("Add Item -  " + selectText);
 
       $('form select').val(optionValue);
-
-
-    
   });
 
   $('.small.modal').modal('attach events', '.user-selection', 'show');
 
 
+  // SHOW MODAL functionality for CUSTOMER ORDER SELECTION
+
+  $('.medium.modal').modal('attach events', '.view-receipt', 'show');
 
 });

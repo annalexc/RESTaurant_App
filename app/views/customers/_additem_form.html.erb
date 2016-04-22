@@ -1,4 +1,4 @@
-
+<div class="header"></div>
 <div class="ui form selection">
   <div class="ui padded segment">
     <%= form_for @new_order , url: customer_orders_path(@customer.id) do |f| %>   
@@ -13,9 +13,8 @@
         <%= f.label :comments, 'Special Requests?' %>
         <%= f.text_field :comments %>
       </div>
-      <div class="actions">
-        <%= f.submit 'Add To Order', :class => 'ui right floated teal button' %>
-      </div>
+     
+        <%= f.submit 'Add To Order', :class => 'ui right teal button' %>
     <% end %>
   </div>
 </div>
