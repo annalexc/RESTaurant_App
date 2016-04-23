@@ -8,43 +8,44 @@
       <div class="column">
           
         <!-- LOGIN FORM BEGIN -->
-        <div class="ui form">
+        <div class="ui inverted form">
           <%= form_tag '/sessions', method: :post do %>
               
             <!-- USERNAME FIELD -->
             <div class="field">
               <%= label_tag :username %>
-              <div class="ui left icon input">
-                <i class="user icon"></i>
-                <%= text_field_tag :username %>
+              <div class="ui left icon inverted transparent input">
+                <i class="user inverted icon"></i>
+                  <%= text_field_tag :username %>
               </div>
             </div>
-
+            <div class="ui divider"></div>
             <!-- PASSWORD FIELD -->
             <div class="field">
               <%= label_tag :password %>
-              <div class="ui left icon input">
-                <i class="lock icon"></i>
-                <%= password_field_tag :password %> 
+              <div class="ui left icon inverted transparent input">
+                <i class="lock inverted icon"></i>
+                <%= password_field_tag :password %>
               </div>
             </div>
 
             <!-- SUBMIT BUTTON -->
-            <%= submit_tag "Log In", class: 'ui teal submit button' %>
+            
+            <%= submit_tag "Log In", class: 'ui inverted submit button' %>
           <% end %>
         </div> <!-- LOGIN FORM END -->
       </div>
         
       <!-- VERTICAL DIVIDER -->
-      <div class="ui vertical divider"> OR </div>
+      <div class="ui inverted vertical divider"> OR </div>
 
       <!-- SIGN UP BUTTON CONTAINER -->
       <div class="center aligned column">
-        <h3 class="ui header">New around here?</h3>
-          
+        <h2 class="ui inverted header">New around here?</h2>
+  
         <!-- SIGN UP BUTTON -->
-        <div class="ui huge yellow right labeled icon button">
-          <i class="add user black icon"></i>
+        <div class="ui huge orange right labeled icon button">
+          <i class="add user inverted icon"></i>
           <%= link_to "Sign Up", new_user_path %>
         </div>
       </div> <!-- SIGN UP CONTAINER END -->

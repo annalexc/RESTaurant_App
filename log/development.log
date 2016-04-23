@@ -27355,3 +27355,1676 @@ Completed 200 OK in 515ms (Views: 514.6ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:00:41 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:03:38 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 256ms (Views: 256.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:03:38 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:04:20 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 404ms (Views: 403.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-de6e6e294becf11de8f073f94f2ff18b370e73b6d6932f314cd233fa5eda1ed9.css?body=1" for ::1 at 2016-04-23 14:04:21 -0400
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:04:21 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:04:46 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 19109ms (Views: 19109.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/semantic_ui/definitions/collections/form.self-c27de0d8bfb82ef64c38b29bba0a3e25e2a25e43154acba9c89c54e4fc5ceab2.css?body=1" for ::1 at 2016-04-23 14:05:05 -0400
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:05:05 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:05:09 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 312ms (Views: 311.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3df3278881b64c5ea0aca63c6eb2aa692e106fd14dedca880ce9e7de8be0bd63.css?body=1" for ::1 at 2016-04-23 14:05:10 -0400
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:05:10 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:05:23 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 192ms (Views: 192.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:05:23 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:05:30 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 727ms (Views: 726.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:05:31 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:05:44 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 148ms (Views: 148.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:05:44 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:06:18 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 242ms (Views: 241.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:06:19 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:07:13 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 517ms (Views: 517.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:07:14 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:07:42 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 454ms (Views: 453.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:07:42 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:07:55 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 1465ms (Views: 1464.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:07:57 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:09:12 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 187ms (Views: 186.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:09:13 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:09:37 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 665ms (Views: 664.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:09:37 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:09:50 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 179ms (Views: 179.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:09:50 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:10:00 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 165ms (Views: 164.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:10:00 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:10:23 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 162ms (Views: 161.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:10:24 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:11:41 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 194ms (Views: 194.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:11:41 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:13:00 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 712ms (Views: 712.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:13:01 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:13:16 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 215ms (Views: 214.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:13:16 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:13:36 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 162ms (Views: 162.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:13:37 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:14:06 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 180ms (Views: 179.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:14:06 -0400
+
+
+Started POST "/sessions" for ::1 at 2016-04-23 14:14:25 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DcWcTTG7542S/Qbzx6EjIOpH01IVzwWFZo+muijUDJRu+ppCKiwe1xBCp0+x9+2lc5xvC7EHefGuemrtT7KB+A==", "username"=>"", "password"=>"[FILTERED]", "commit"=>"Log In"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT 1[0m  [["username", ""]]
+Redirected to http://localhost:3000/users/login
+Completed 302 Found in 1ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:14:25 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 175ms (Views: 175.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:14:26 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:14:36 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 171ms (Views: 171.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:14:36 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:14:42 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 644ms (Views: 643.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:14:42 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:14:51 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 252ms (Views: 251.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:14:51 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:15:01 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 204ms (Views: 204.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:15:02 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:16:24 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 190ms (Views: 190.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:16:24 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:16:56 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 159ms (Views: 159.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:16:57 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:17:03 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 150ms (Views: 149.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:17:03 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:17:10 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 649ms (Views: 649.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:17:11 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:17:29 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 184ms (Views: 183.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:17:30 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:17:42 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 167ms (Views: 166.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:17:43 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:17:53 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 159ms (Views: 159.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:17:53 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:18:14 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 172ms (Views: 172.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:18:15 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:18:25 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 166ms (Views: 166.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:18:25 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:18:46 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 176ms (Views: 176.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:18:47 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:19:30 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 167ms (Views: 166.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:19:31 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:20:09 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 663ms (Views: 663.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:20:10 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:20:26 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 217ms (Views: 216.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:20:27 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:21:04 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 189ms (Views: 188.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:21:04 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:21:11 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 192ms (Views: 191.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:21:12 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:21:26 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 191ms (Views: 190.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:21:26 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:21:41 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 299ms (Views: 298.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9b22889f293bfda924012cc244a641125e1e35ce6efe7b3677f78376adbc37ae.css?body=1" for ::1 at 2016-04-23 14:21:42 -0400
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:21:42 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:22:59 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 224ms (Views: 223.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:23:00 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:23:43 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 303ms (Views: 302.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e9143fa8ea8f882a08d3a055753bcd73e25858e3470608079953f2dd3d32c353.css?body=1" for ::1 at 2016-04-23 14:23:43 -0400
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:23:43 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:23:58 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 663ms (Views: 663.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:23:59 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:24:57 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 354ms (Views: 353.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-1c1ef36d46f18718b1341d71406164c79f52b371b9889fccf1859685ff2c2974.css?body=1" for ::1 at 2016-04-23 14:24:57 -0400
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:24:57 -0400
+
+
+Started GET "/assets/lights-small.png" for ::1 at 2016-04-23 14:25:01 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:25:25 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 330ms (Views: 330.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-77deb1488bbafe2520b02f2c449d561628bf65a6d921d7c93c77e4745341d03f.css?body=1" for ::1 at 2016-04-23 14:25:26 -0400
+
+
+Started GET "/assets/lights-small.png" for ::1 at 2016-04-23 14:25:26 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:25:34 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 350ms (Views: 349.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-37c67a40bf54dac65eef2bd9130b5284cc21a2616dd5f037da7c6a6ff3a92156.css?body=1" for ::1 at 2016-04-23 14:25:34 -0400
+
+
+Started GET "/assets/lights-small.png" for ::1 at 2016-04-23 14:25:34 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:26:38 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 362ms (Views: 362.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lights-small.png" for ::1 at 2016-04-23 14:26:38 -0400
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:26:53 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:27:13 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 402ms (Views: 402.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:27:14 -0400
+
+
+Started GET "/assets/lights-small.png" for ::1 at 2016-04-23 14:27:20 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:27:51 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 1605ms (Views: 1605.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:27:53 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:28:01 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 149ms (Views: 148.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:28:01 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:28:24 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 646ms (Views: 645.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:28:25 -0400
+
+
+Started GET "/assets/lights-small.png" for ::1 at 2016-04-23 14:28:35 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:28:52 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 295ms (Views: 294.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-fcc6c595788d856806c8dd189b7c2bc8775ad36529cff5e5d2b652be5ac39ad6.css?body=1" for ::1 at 2016-04-23 14:28:53 -0400
+
+
+Started GET "/assets/lights-small.png" for ::1 at 2016-04-23 14:28:53 -0400
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:28:55 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:29:01 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 296ms (Views: 296.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7ca00423c7c3770c02a9440f7f087422549dddc9c2e0b1fb77d1c10a95d9faee.css?body=1" for ::1 at 2016-04-23 14:29:01 -0400
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:29:02 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:29:54 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 802ms (Views: 802.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-8f8165b1a66ff4b38693e64aafa61b7fd243ced40f54231ce7c56e19036ff08a.css?body=1" for ::1 at 2016-04-23 14:29:55 -0400
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:29:55 -0400
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:30:20 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 343ms (Views: 343.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-537785b177aa24e032c265d16de94a15ae19e1c0b3e023b69e45aeb958e59f7b.css?body=1" for ::1 at 2016-04-23 14:30:21 -0400
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:30:21 -0400
+
+
+Started POST "/sessions" for ::1 at 2016-04-23 14:31:13 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+COX8A/o4mVarcLc/Q/8PZTSo3QEGwwdi+2JdpLrRUWbHJH/FH8bP9gSY2CLWTK4DQkfLaDTcGlDGEUh9Y3IKQ==", "username"=>"anna", "password"=>"[FILTERED]", "commit"=>"Log In"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT 1  [["username", "anna"]]
+Redirected to http://localhost:3000/users/landing
+Completed 302 Found in 70ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/users/landing" for ::1 at 2016-04-23 14:31:13 -0400
+Processing by UsersController#landing as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered users/landing.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 208ms (Views: 206.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:31:14 -0400
+
+
+Started GET "/users/parties" for ::1 at 2016-04-23 14:31:23 -0400
+Processing by UsersController#parties as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mParty Load (0.4ms)[0m  [1mSELECT "parties".* FROM "parties" WHERE "parties"."user_id" = $1 AND "parties"."is_paid" = $2[0m  [["user_id", 1], ["is_paid", 0]]
+  [1m[35mTable Load (0.2ms)[0m  SELECT  "tables".* FROM "tables" WHERE "tables"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered users/parties.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 184ms (Views: 182.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:31:23 -0400
+
+
+Started GET "/parties/5" for ::1 at 2016-04-23 14:31:24 -0400
+Processing by PartiesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mParty Load (0.2ms)[0m  [1mSELECT  "parties".* FROM "parties" WHERE "parties"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mCustomer Load (0.2ms)[0m  SELECT "customers".* FROM "customers" WHERE "customers"."party_id" = $1  [["party_id", 5]]
+  [1m[36mOrder Load (0.2ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 11]]
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 12]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mOrder Load (0.1ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 13]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mOrder Load (0.1ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 14]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 11]]
+  [1m[35mTable Load (0.1ms)[0m  SELECT  "tables".* FROM "tables" WHERE "tables"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "customers".* FROM "customers" WHERE "customers"."party_id" = $1[0m  [["party_id", 5]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 11]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 12]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 13]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 14]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 11]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 12]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 13]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 14]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 11]]
+  Rendered parties/_partyreceipt.html.erb (7.6ms)
+  Rendered parties/show.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 179ms (Views: 171.1ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:31:25 -0400
+
+
+Started GET "/assets/lights-small.png" for ::1 at 2016-04-23 14:31:30 -0400
+
+
+Started GET "/parties/5" for ::1 at 2016-04-23 14:32:23 -0400
+Processing by PartiesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mParty Load (0.1ms)[0m  [1mSELECT  "parties".* FROM "parties" WHERE "parties"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mCustomer Load (0.1ms)[0m  SELECT "customers".* FROM "customers" WHERE "customers"."party_id" = $1  [["party_id", 5]]
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 11]]
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 12]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mOrder Load (0.1ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 13]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mOrder Load (0.1ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 14]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 11]]
+  [1m[35mTable Load (0.4ms)[0m  SELECT  "tables".* FROM "tables" WHERE "tables"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "customers".* FROM "customers" WHERE "customers"."party_id" = $1[0m  [["party_id", 5]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 11]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 12]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 13]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 14]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 11]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 12]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 13]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 14]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 11]]
+  Rendered parties/_partyreceipt.html.erb (6.1ms)
+  Rendered parties/show.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 773ms (Views: 765.2ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/application.self-c598324b7f6e3ebccd83e559f1b4efce6d61092daa01f4977b65ae891781e1a0.css?body=1" for ::1 at 2016-04-23 14:32:24 -0400
+
+
+Started GET "/users/landing" for ::1 at 2016-04-23 14:32:30 -0400
+Processing by UsersController#landing as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered users/landing.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 194ms (Views: 193.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/lights-small.png" for ::1 at 2016-04-23 14:32:30 -0400
+
+
+Started GET "/users/parties" for ::1 at 2016-04-23 14:32:36 -0400
+Processing by UsersController#parties as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mParty Load (0.2ms)[0m  [1mSELECT "parties".* FROM "parties" WHERE "parties"."user_id" = $1 AND "parties"."is_paid" = $2[0m  [["user_id", 1], ["is_paid", 0]]
+  [1m[35mTable Load (0.1ms)[0m  SELECT  "tables".* FROM "tables" WHERE "tables"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered users/parties.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 188ms (Views: 186.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/parties/5" for ::1 at 2016-04-23 14:32:37 -0400
+Processing by PartiesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mParty Load (0.1ms)[0m  [1mSELECT  "parties".* FROM "parties" WHERE "parties"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mCustomer Load (0.1ms)[0m  SELECT "customers".* FROM "customers" WHERE "customers"."party_id" = $1  [["party_id", 5]]
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 11]]
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 12]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mOrder Load (0.1ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 13]]
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mOrder Load (0.1ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 14]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 11]]
+  [1m[35mTable Load (0.1ms)[0m  SELECT  "tables".* FROM "tables" WHERE "tables"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "customers".* FROM "customers" WHERE "customers"."party_id" = $1[0m  [["party_id", 5]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 11]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 12]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 13]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 14]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 11]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 12]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 13]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 14]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 11]]
+  Rendered parties/_partyreceipt.html.erb (9.8ms)
+  Rendered parties/show.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 209ms (Views: 200.8ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/users/landing" for ::1 at 2016-04-23 14:32:51 -0400
+Processing by UsersController#landing as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered users/landing.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 285ms (Views: 283.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.self-ca71e919f5fd1b6919ef0643e7291e586f181f7eef6483e27a2914b7018cd640.css?body=1" for ::1 at 2016-04-23 14:32:51 -0400
+
+
+Started GET "/assets/lights-small.png" for ::1 at 2016-04-23 14:32:51 -0400
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:32:51 -0400
+
+
+Started GET "/parties" for ::1 at 2016-04-23 14:32:53 -0400
+Processing by PartiesController#index as HTML
+  [1m[35mTable Load (0.8ms)[0m  SELECT "tables".* FROM "tables"  ORDER BY "tables"."id" ASC
+  Rendered parties/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 158ms (Views: 157.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/lights-small.png" for ::1 at 2016-04-23 14:32:54 -0400
+
+
+Started GET "/users/landing" for ::1 at 2016-04-23 14:32:55 -0400
+Processing by UsersController#landing as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered users/landing.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 654ms (Views: 653.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/lights-small.png" for ::1 at 2016-04-23 14:32:56 -0400
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:32:56 -0400
+
+
+Started GET "/users/parties" for ::1 at 2016-04-23 14:32:57 -0400
+Processing by UsersController#parties as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mParty Load (0.2ms)[0m  [1mSELECT "parties".* FROM "parties" WHERE "parties"."user_id" = $1 AND "parties"."is_paid" = $2[0m  [["user_id", 1], ["is_paid", 0]]
+  [1m[35mTable Load (0.1ms)[0m  SELECT  "tables".* FROM "tables" WHERE "tables"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered users/parties.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 204ms (Views: 202.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/lights-small.png" for ::1 at 2016-04-23 14:32:57 -0400
+
+
+Started GET "/parties/5" for ::1 at 2016-04-23 14:32:59 -0400
+Processing by PartiesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mParty Load (0.2ms)[0m  [1mSELECT  "parties".* FROM "parties" WHERE "parties"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mCustomer Load (0.1ms)[0m  SELECT "customers".* FROM "customers" WHERE "customers"."party_id" = $1  [["party_id", 5]]
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 11]]
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 12]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mOrder Load (0.1ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 13]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mOrder Load (0.1ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 14]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 11]]
+  [1m[35mTable Load (0.2ms)[0m  SELECT  "tables".* FROM "tables" WHERE "tables"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "customers".* FROM "customers" WHERE "customers"."party_id" = $1[0m  [["party_id", 5]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 11]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 12]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 13]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 14]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 11]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 12]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 13]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 14]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 11]]
+  Rendered parties/_partyreceipt.html.erb (6.7ms)
+  Rendered parties/show.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 193ms (Views: 185.9ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/lights-small.png" for ::1 at 2016-04-23 14:32:59 -0400
+
+
+Started GET "/parties/5" for ::1 at 2016-04-23 14:34:52 -0400
+Processing by PartiesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mParty Load (0.1ms)[0m  [1mSELECT  "parties".* FROM "parties" WHERE "parties"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mCustomer Load (0.1ms)[0m  SELECT "customers".* FROM "customers" WHERE "customers"."party_id" = $1  [["party_id", 5]]
+  [1m[36mOrder Load (0.2ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 11]]
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 12]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mOrder Load (0.1ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 13]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mOrder Load (0.2ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 14]]
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 11]]
+  [1m[35mTable Load (0.2ms)[0m  SELECT  "tables".* FROM "tables" WHERE "tables"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "customers".* FROM "customers" WHERE "customers"."party_id" = $1[0m  [["party_id", 5]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 11]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 12]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 13]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 14]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 11]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 12]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 13]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 14]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 11]]
+  Rendered parties/_partyreceipt.html.erb (7.1ms)
+  Rendered parties/show.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 240ms (Views: 222.3ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/parties/5" for ::1 at 2016-04-23 14:35:56 -0400
+Processing by PartiesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mParty Load (0.2ms)[0m  [1mSELECT  "parties".* FROM "parties" WHERE "parties"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mCustomer Load (0.2ms)[0m  SELECT "customers".* FROM "customers" WHERE "customers"."party_id" = $1  [["party_id", 5]]
+  [1m[36mOrder Load (0.2ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 11]]
+  [1m[35mItem Load (0.2ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 12]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mOrder Load (0.4ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 13]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mOrder Load (0.1ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 14]]
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 11]]
+  [1m[35mTable Load (0.1ms)[0m  SELECT  "tables".* FROM "tables" WHERE "tables"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "customers".* FROM "customers" WHERE "customers"."party_id" = $1[0m  [["party_id", 5]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 11]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 12]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 13]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 14]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 11]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 12]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 13]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 14]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 11]]
+  Rendered parties/_partyreceipt.html.erb (9.6ms)
+  Rendered parties/show.html.erb within layouts/application (14.9ms)
+Completed 200 OK in 364ms (Views: 354.5ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/application.self-5f3a0ebb4c28e07bb896e6b54ead931081f02ce65a9138cf66fdbf6318ccd40e.css?body=1" for ::1 at 2016-04-23 14:35:56 -0400
+
+
+Started GET "/parties/5" for ::1 at 2016-04-23 14:36:20 -0400
+Processing by PartiesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mParty Load (0.2ms)[0m  [1mSELECT  "parties".* FROM "parties" WHERE "parties"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mCustomer Load (0.1ms)[0m  SELECT "customers".* FROM "customers" WHERE "customers"."party_id" = $1  [["party_id", 5]]
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 11]]
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 12]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mOrder Load (0.1ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 13]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mOrder Load (0.1ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 14]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 11]]
+  [1m[35mTable Load (0.1ms)[0m  SELECT  "tables".* FROM "tables" WHERE "tables"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "customers".* FROM "customers" WHERE "customers"."party_id" = $1[0m  [["party_id", 5]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 11]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 12]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 13]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 14]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 11]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 12]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 13]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 14]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 11]]
+  Rendered parties/_partyreceipt.html.erb (18.8ms)
+  Rendered parties/show.html.erb within layouts/application (24.4ms)
+Completed 200 OK in 341ms (Views: 333.2ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/application.self-b889cf3dd56065055eb684fbeb8df73c8358fd00079be72f18c8f616c8bbf63c.css?body=1" for ::1 at 2016-04-23 14:36:20 -0400
+
+
+Started GET "/parties/5" for ::1 at 2016-04-23 14:36:31 -0400
+Processing by PartiesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mParty Load (0.1ms)[0m  [1mSELECT  "parties".* FROM "parties" WHERE "parties"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mCustomer Load (0.1ms)[0m  SELECT "customers".* FROM "customers" WHERE "customers"."party_id" = $1  [["party_id", 5]]
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 11]]
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 12]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mOrder Load (0.1ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 13]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mOrder Load (0.1ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 14]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 11]]
+  [1m[35mTable Load (0.1ms)[0m  SELECT  "tables".* FROM "tables" WHERE "tables"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "customers".* FROM "customers" WHERE "customers"."party_id" = $1[0m  [["party_id", 5]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 11]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 12]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 13]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 14]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 11]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 12]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 13]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 14]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 11]]
+  Rendered parties/_partyreceipt.html.erb (16.8ms)
+  Rendered parties/show.html.erb within layouts/application (21.9ms)
+Completed 200 OK in 324ms (Views: 316.3ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/application.self-dc3a7543e4fbbfb0817bb9d5591462fcacbfdc4af1620a2733793582199eb859.css?body=1" for ::1 at 2016-04-23 14:36:31 -0400
+
+
+Started GET "/parties/5" for ::1 at 2016-04-23 14:36:37 -0400
+Processing by PartiesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mParty Load (0.1ms)[0m  [1mSELECT  "parties".* FROM "parties" WHERE "parties"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mCustomer Load (0.2ms)[0m  SELECT "customers".* FROM "customers" WHERE "customers"."party_id" = $1  [["party_id", 5]]
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 11]]
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 12]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mOrder Load (0.1ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 13]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mOrder Load (0.1ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 14]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 11]]
+  [1m[35mTable Load (0.1ms)[0m  SELECT  "tables".* FROM "tables" WHERE "tables"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT "customers".* FROM "customers" WHERE "customers"."party_id" = $1[0m  [["party_id", 5]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 11]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 12]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 13]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 14]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 11]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 12]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 13]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 14]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 11]]
+  Rendered parties/_partyreceipt.html.erb (7.1ms)
+  Rendered parties/show.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 898ms (Views: 890.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.self-e27ad22beb03afeb92495c59030f363565169174c5b67f028448e3a2bb68247f.css?body=1" for ::1 at 2016-04-23 14:36:38 -0400
+
+
+Started GET "/parties/5" for ::1 at 2016-04-23 14:36:54 -0400
+Processing by PartiesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mParty Load (0.2ms)[0m  [1mSELECT  "parties".* FROM "parties" WHERE "parties"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mCustomer Load (0.1ms)[0m  SELECT "customers".* FROM "customers" WHERE "customers"."party_id" = $1  [["party_id", 5]]
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 11]]
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mOrder Load (0.2ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 12]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mOrder Load (0.2ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 13]]
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mOrder Load (0.1ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 14]]
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 11]]
+  [1m[35mTable Load (0.2ms)[0m  SELECT  "tables".* FROM "tables" WHERE "tables"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "customers".* FROM "customers" WHERE "customers"."party_id" = $1[0m  [["party_id", 5]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 11]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 12]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 13]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 14]]
+  [1m[35mCACHE (0.2ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 11]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 12]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 13]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 14]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 11]]
+  Rendered parties/_partyreceipt.html.erb (7.7ms)
+  Rendered parties/show.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 375ms (Views: 361.1ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/assets/application.self-31e0582d0a7909b5dce24942584a1a20b0bcfe39a874e3d7b0e384503f1399c6.css?body=1" for ::1 at 2016-04-23 14:36:55 -0400
+
+
+Started GET "/parties/5" for ::1 at 2016-04-23 14:37:01 -0400
+Processing by PartiesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mParty Load (0.1ms)[0m  [1mSELECT  "parties".* FROM "parties" WHERE "parties"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mCustomer Load (0.1ms)[0m  SELECT "customers".* FROM "customers" WHERE "customers"."party_id" = $1  [["party_id", 5]]
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 11]]
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 12]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mOrder Load (0.1ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 13]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mOrder Load (0.1ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 14]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 11]]
+  [1m[35mTable Load (0.1ms)[0m  SELECT  "tables".* FROM "tables" WHERE "tables"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "customers".* FROM "customers" WHERE "customers"."party_id" = $1[0m  [["party_id", 5]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 11]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 12]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 13]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 14]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 11]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 12]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 13]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 14]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 11]]
+  Rendered parties/_partyreceipt.html.erb (16.1ms)
+  Rendered parties/show.html.erb within layouts/application (21.5ms)
+Completed 200 OK in 351ms (Views: 343.1ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/application.self-91bc4261a37b354d2406df90803d9c415676b728221f3f2c759e62042cf70aad.css?body=1" for ::1 at 2016-04-23 14:37:01 -0400
+
+
+Started GET "/parties/5" for ::1 at 2016-04-23 14:37:11 -0400
+Processing by PartiesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mParty Load (0.1ms)[0m  [1mSELECT  "parties".* FROM "parties" WHERE "parties"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mCustomer Load (0.1ms)[0m  SELECT "customers".* FROM "customers" WHERE "customers"."party_id" = $1  [["party_id", 5]]
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 11]]
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 12]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mOrder Load (0.1ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 13]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mOrder Load (0.1ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 14]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 11]]
+  [1m[35mTable Load (0.1ms)[0m  SELECT  "tables".* FROM "tables" WHERE "tables"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "customers".* FROM "customers" WHERE "customers"."party_id" = $1[0m  [["party_id", 5]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 11]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 12]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 13]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 14]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 11]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 12]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 13]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 14]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 11]]
+  Rendered parties/_partyreceipt.html.erb (6.1ms)
+  Rendered parties/show.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 458ms (Views: 450.4ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/application.self-53586cf16509c872120a1e4ab6a3edc1832a314abf8103bab854fb3b4faaca71.css?body=1" for ::1 at 2016-04-23 14:37:11 -0400
+
+
+Started GET "/parties/5" for ::1 at 2016-04-23 14:37:24 -0400
+Processing by PartiesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mParty Load (0.2ms)[0m  [1mSELECT  "parties".* FROM "parties" WHERE "parties"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mCustomer Load (0.1ms)[0m  SELECT "customers".* FROM "customers" WHERE "customers"."party_id" = $1  [["party_id", 5]]
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 11]]
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mOrder Load (0.2ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 12]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mOrder Load (0.1ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 13]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mOrder Load (0.1ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 14]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 11]]
+  [1m[35mTable Load (0.1ms)[0m  SELECT  "tables".* FROM "tables" WHERE "tables"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "customers".* FROM "customers" WHERE "customers"."party_id" = $1[0m  [["party_id", 5]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 11]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 12]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 13]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 14]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 11]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 12]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 13]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 14]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 11]]
+  Rendered parties/_partyreceipt.html.erb (18.6ms)
+  Rendered parties/show.html.erb within layouts/application (26.2ms)
+Completed 200 OK in 403ms (Views: 391.2ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/parties/5" for ::1 at 2016-04-23 14:37:30 -0400
+Processing by PartiesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mParty Load (0.2ms)[0m  [1mSELECT  "parties".* FROM "parties" WHERE "parties"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mCustomer Load (0.1ms)[0m  SELECT "customers".* FROM "customers" WHERE "customers"."party_id" = $1  [["party_id", 5]]
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 11]]
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mOrder Load (1.4ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 12]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mOrder Load (0.2ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 13]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mOrder Load (0.1ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 14]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 11]]
+  [1m[35mTable Load (0.1ms)[0m  SELECT  "tables".* FROM "tables" WHERE "tables"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "customers".* FROM "customers" WHERE "customers"."party_id" = $1[0m  [["party_id", 5]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 11]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 12]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 13]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 14]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 11]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 12]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 13]]
+  [1m[35mCACHE (0.4ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 14]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 11]]
+  Rendered parties/_partyreceipt.html.erb (9.7ms)
+  Rendered parties/show.html.erb within layouts/application (16.9ms)
+Completed 200 OK in 1858ms (Views: 1844.3ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/assets/application.self-c72013c810c9c5e9871a6f23463d73eb258ed4d2d35538d8e50cb4627a47d4e2.css?body=1" for ::1 at 2016-04-23 14:37:32 -0400
+
+
+Started GET "/parties/5" for ::1 at 2016-04-23 14:37:33 -0400
+Processing by PartiesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mParty Load (0.1ms)[0m  [1mSELECT  "parties".* FROM "parties" WHERE "parties"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mCustomer Load (0.1ms)[0m  SELECT "customers".* FROM "customers" WHERE "customers"."party_id" = $1  [["party_id", 5]]
+  [1m[36mOrder Load (0.2ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 11]]
+  [1m[35mItem Load (0.2ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 12]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mOrder Load (0.1ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 13]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mOrder Load (0.1ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 14]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 11]]
+  [1m[35mTable Load (0.1ms)[0m  SELECT  "tables".* FROM "tables" WHERE "tables"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "customers".* FROM "customers" WHERE "customers"."party_id" = $1[0m  [["party_id", 5]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 11]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 12]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 13]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 14]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 11]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 12]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 13]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 14]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 11]]
+  Rendered parties/_partyreceipt.html.erb (6.2ms)
+  Rendered parties/show.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 188ms (Views: 181.1ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/parties/5" for ::1 at 2016-04-23 14:37:59 -0400
+Processing by PartiesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mParty Load (0.2ms)[0m  [1mSELECT  "parties".* FROM "parties" WHERE "parties"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mCustomer Load (0.1ms)[0m  SELECT "customers".* FROM "customers" WHERE "customers"."party_id" = $1  [["party_id", 5]]
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 11]]
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 12]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mOrder Load (0.1ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 13]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mOrder Load (0.1ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 14]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 11]]
+  [1m[35mTable Load (0.1ms)[0m  SELECT  "tables".* FROM "tables" WHERE "tables"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "customers".* FROM "customers" WHERE "customers"."party_id" = $1[0m  [["party_id", 5]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 11]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 12]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 13]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 14]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 11]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 12]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 13]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 14]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 11]]
+  Rendered parties/_partyreceipt.html.erb (6.7ms)
+  Rendered parties/show.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 810ms (Views: 801.7ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/application.self-6bd195e4b8eeab2381135154db47ca341af2351b51994295cfa04dbefba2132f.css?body=1" for ::1 at 2016-04-23 14:38:00 -0400
+
+
+Started GET "/parties/5" for ::1 at 2016-04-23 14:38:23 -0400
+Processing by PartiesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mParty Load (0.2ms)[0m  [1mSELECT  "parties".* FROM "parties" WHERE "parties"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mCustomer Load (0.2ms)[0m  SELECT "customers".* FROM "customers" WHERE "customers"."party_id" = $1  [["party_id", 5]]
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 11]]
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 12]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mOrder Load (0.1ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 13]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mOrder Load (0.2ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 14]]
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 11]]
+  [1m[35mTable Load (0.1ms)[0m  SELECT  "tables".* FROM "tables" WHERE "tables"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "customers".* FROM "customers" WHERE "customers"."party_id" = $1[0m  [["party_id", 5]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 11]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 12]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 13]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 14]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 11]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1  [["customer_id", 12]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 13]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 14]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 11]]
+  Rendered parties/_partyreceipt.html.erb (6.5ms)
+  Rendered parties/show.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 284ms (Views: 275.9ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/application.self-f746ab1f11f49d6e3bc653d309b4b809401fae9bfec0a47aeee81773a72ff273.css?body=1" for ::1 at 2016-04-23 14:38:24 -0400
+
+
+Started GET "/users/landing" for ::1 at 2016-04-23 14:38:34 -0400
+Processing by UsersController#landing as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered users/landing.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 164ms (Views: 162.9ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/sessions" for ::1 at 2016-04-23 14:38:36 -0400
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"EqAWtJUZzRHa4gv6BxRcAgY3FBKBc9JGR/wgMFJy//NxnxC7jo40S1hdqkZxQpKHn+yoSyW7rjKPCexnNRRynw=="}
+Redirected to http://localhost:3000/users/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:38:36 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 639ms (Views: 638.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:38:36 -0400
+
+
+Started POST "/sessions" for ::1 at 2016-04-23 14:39:15 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"B7prwXNxV1m7/lmoT/aK1YqFKpxGvATGDC3ARhOMEYZkhW3OaOauAzlB+BQ5oERQE16WxeJ0eLLE2AwRdOqc6g==", "username"=>"anna", "password"=>"[FILTERED]", "commit"=>"Log In"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT 1  [["username", "anna"]]
+Redirected to http://localhost:3000/users/landing
+Completed 302 Found in 76ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/users/landing" for ::1 at 2016-04-23 14:39:15 -0400
+Processing by UsersController#landing as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered users/landing.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 203ms (Views: 201.9ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/sessions" for ::1 at 2016-04-23 14:39:39 -0400
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"e/ZRvcTz+TH4YNZa0xEV20Rx60ngsKmz9WUDkkHafyAYyVey32QAa3rfd+alR9te3apXEER41cc9kM/FJrzyTA=="}
+Redirected to http://localhost:3000/users/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/login" for ::1 at 2016-04-23 14:39:39 -0400
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 173ms (Views: 172.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:39:39 -0400
+
+
+Started GET "/" for ::1 at 2016-04-23 14:40:33 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 1140ms (Views: 1139.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/semantic_ui/definitions/modules/accordion.self-75fbb87e485e698531f1bd40f000dbecd24fc8bd66cde2c60b3c42e7a9a97caf.css?body=1" for ::1 at 2016-04-23 14:40:34 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/modules/checkbox.self-d54541d01e548350e64e1a4ac7acfc4db2f9b4d3fe0af6ed5b294ddddba445e4.css?body=1" for ::1 at 2016-04-23 14:40:34 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/views/ad.self-d697daace2c3e4d7c583562311cac98d1dfff655bfb08be98e50ba3f614e563f.css?body=1" for ::1 at 2016-04-23 14:40:34 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/views/card.self-70cd74478464e95b5a7708e42fa13a47de5db1070f6dbdf786925dfc076b23ca.css?body=1" for ::1 at 2016-04-23 14:40:34 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/elements/button.self-3629183627cb88149c409840d9295a4dd10368a1bef6bf06957c4b6d454bca3a.css?body=1" for ::1 at 2016-04-23 14:40:34 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/collections/breadcrumb.self-b0ad0baf7ab030b0cf947668bfe8674c0d76f86b8afbf44ca8f10200dd8c2105.css?body=1" for ::1 at 2016-04-23 14:40:34 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/views/comment.self-adfca44f4a7af3eb36cd9d0327524ef1822cf07f94db2e64a80be4827066b085.css?body=1" for ::1 at 2016-04-23 14:40:34 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/elements/container.self-eb5b3c2a8233a30ec225770ea8e19d377c422e1f5649c2093ffd9c826317a1b4.css?body=1" for ::1 at 2016-04-23 14:40:34 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/modules/dimmer.self-d4ca3447bfae20cacd0aabe573f45e746ad72dc7a18b0d09c0d888396ff19174.css?body=1" for ::1 at 2016-04-23 14:40:34 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/elements/divider.self-37a4b7a4b62dc0b1bae587bf901541443192993c2a310e068a024fa27966d00b.css?body=1" for ::1 at 2016-04-23 14:40:34 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/modules/dropdown.self-216066ec089f0a6e17375c0497bd1bd1fa24b6edffd4a23616ef658df35ceeac.css?body=1" for ::1 at 2016-04-23 14:40:34 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/modules/embed.self-396e2e4a2fadbb7afafb9626c7f7f3773c065c5710472f26ab7d96ce31ee9cc0.css?body=1" for ::1 at 2016-04-23 14:40:34 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/views/feed.self-c65577ce1fd3ec4b044616dcc45ca7bf8c44e7b71c39b300a3c91c198a6b924c.css?body=1" for ::1 at 2016-04-23 14:40:34 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/elements/flag.self-398bf8054969bbc464caae66281c3b44170945f72c143f1026f92ef9f5392a41.css?body=1" for ::1 at 2016-04-23 14:40:34 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/collections/form.self-c27de0d8bfb82ef64c38b29bba0a3e25e2a25e43154acba9c89c54e4fc5ceab2.css?body=1" for ::1 at 2016-04-23 14:40:34 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/collections/grid.self-a11e61a9f49749768e1458e6e0b922d002e7e2ae599ed8ddc4697a55f8d5e91c.css?body=1" for ::1 at 2016-04-23 14:40:34 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/elements/header.self-d6df3f205e47b207eda3e9d4a0f6eea1e48f00b645c5c454ed88106e0e79d72c.css?body=1" for ::1 at 2016-04-23 14:40:34 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/elements/icon.self-df47ed3d4c64e88826044a4579d1c145522928729c548497183b113fa6878052.css?body=1" for ::1 at 2016-04-23 14:40:34 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/elements/image.self-3fb5aec9db1863252d08f87efe994f4e3ba867d35bcd8d0707d2dca7508238cd.css?body=1" for ::1 at 2016-04-23 14:40:34 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/elements/input.self-2748a8a1d9677ffc0b43edc5e2d9d0e6a272f78aa5c07989a51671c499794310.css?body=1" for ::1 at 2016-04-23 14:40:34 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/views/item.self-fde052a0e09ada41314df745d984f2297a1e13ada52a8f2f294a1ad6782f1b85.css?body=1" for ::1 at 2016-04-23 14:40:34 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/elements/label.self-e7dd8ddfa82865f42b228cd29ae94b358b64e18a08fe8a4cfd67dd76e829e539.css?body=1" for ::1 at 2016-04-23 14:40:34 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/elements/list.self-e76cec8fdd29c1053c94821a4762bcad91ecaad1581da7ba481fc615e6aabd16.css?body=1" for ::1 at 2016-04-23 14:40:34 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/elements/loader.self-bfd0d435c8315cd3fbbdab107487b6832ffb51cc5f7b858fed4576581696c899.css?body=1" for ::1 at 2016-04-23 14:40:34 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/collections/menu.self-89f32df8a1a1f1f68a29f4b924bfcd8686af2df98d878b76556490245601f0be.css?body=1" for ::1 at 2016-04-23 14:40:34 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/collections/message.self-86332e6d73894b580c0d9ffbe7f47074b1ea7c7532b7fb8c82b2606c9294369d.css?body=1" for ::1 at 2016-04-23 14:40:34 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/modules/modal.self-338d7cf36a8daa1f4f68aff253f9288d3e38fa7fb95e720503dbeb58a66fa96c.css?body=1" for ::1 at 2016-04-23 14:40:34 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/modules/nag.self-17ddb075aa961ff429676f3279d3ccb0676b697a4885b25bd88e76bbd62126e6.css?body=1" for ::1 at 2016-04-23 14:40:34 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/modules/popup.self-ba2ec0aed1e16fd4eb1585dd45628831a70c8c332b7c5ebf3534b0b348d137b3.css?body=1" for ::1 at 2016-04-23 14:40:34 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/modules/progress.self-61fe4ce4e73ed38f5320c8bd3427dd2bd961bbf15d7e5ebe7b55b2083b3fdd5d.css?body=1" for ::1 at 2016-04-23 14:40:34 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/elements/rail.self-451550670503b593d96fa7d2b7ac0dcaf74f55acfd0bb55a3d766c0d7e6805d6.css?body=1" for ::1 at 2016-04-23 14:40:34 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/modules/rating.self-c90e0f6eff10ce5b92b84683db0e8031f9cc84fbdde9a4c0d0d0976253a66ad8.css?body=1" for ::1 at 2016-04-23 14:40:34 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/globals/reset.self-6ae6b3d74683babd99ddb275027d7ae635927f28cc7e516e6cf81f056a21dfc7.css?body=1" for ::1 at 2016-04-23 14:40:34 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/elements/reveal.self-89332dad80941efcfb48d71d18129155ccf50ea5e8e2a1ac1cc1baea746ab0e2.css?body=1" for ::1 at 2016-04-23 14:40:34 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/modules/search.self-fca6623619334dd4d5611239626ef344d90c1c5a874dbc27be0810f5f9f62350.css?body=1" for ::1 at 2016-04-23 14:40:34 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/elements/segment.self-affacbdfa97770ee7a42bf87fe46032ea456cbb9412db636888f1013d650e163.css?body=1" for ::1 at 2016-04-23 14:40:34 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/modules/shape.self-28988f108089575b8e268bf5acd282954eadd06b28765ced94fd4c3262adc3d3.css?body=1" for ::1 at 2016-04-23 14:40:34 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/modules/sidebar.self-0f60ba1d980b6930717f9523d3421f0bdea47176f9e6149c5efbf4046a8554d2.css?body=1" for ::1 at 2016-04-23 14:40:34 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/globals/site.self-eeeb673b0ac3604b86bf508e8a14687505285eb0b733b1245ffb17534ba2d7ec.css?body=1" for ::1 at 2016-04-23 14:40:34 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/views/statistic.self-245e5dd9b64243050b39bd7b89dd7594774b8ada14757e6773320d992c1953e5.css?body=1" for ::1 at 2016-04-23 14:40:34 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/elements/step.self-c20afac3af209235554146a53490411a11b5be48995d77dca37572835ceb59eb.css?body=1" for ::1 at 2016-04-23 14:40:34 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/modules/sticky.self-365f3f898f3617d8b0d1d9156329f4830d7a6640f20366394ba451c48ecc4df0.css?body=1" for ::1 at 2016-04-23 14:40:34 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/modules/tab.self-790b084e51fa783d93958b83b127cbe5d485d25a3caf278fc8b62c44ebc99393.css?body=1" for ::1 at 2016-04-23 14:40:34 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/collections/table.self-4bd541b9db0dc68eb58e3850b4d1340ac76c3c9272ff695afe1b8bdd6850a1c7.css?body=1" for ::1 at 2016-04-23 14:40:34 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/modules/transition.self-52b164e16dc9478ae197959c06d1e65ccc795ae95ac6b208e4dcfd01fc34379f.css?body=1" for ::1 at 2016-04-23 14:40:34 -0400
+
+
+Started GET "/assets/semantic_ui/semantic_ui.self-c323cfe3da5cfd6f70cfe6a8cb597ff04c58dc8e087760d641147351ea6823d3.css?body=1" for ::1 at 2016-04-23 14:40:34 -0400
+
+
+Started GET "/assets/application.self-f746ab1f11f49d6e3bc653d309b4b809401fae9bfec0a47aeee81773a72ff273.css?body=1" for ::1 at 2016-04-23 14:40:35 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-23 14:40:35 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-23 14:40:35 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/modules/accordion.self-5069d2c48b67c42333d74507854ee3d562ca915ba31a5064e5412d1b2d1bb42f.js?body=1" for ::1 at 2016-04-23 14:40:35 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/behaviors/api.self-9a054b3d26d122a0c07120b617911d2003f2527675f49e3f4a6034cee7749596.js?body=1" for ::1 at 2016-04-23 14:40:35 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/modules/checkbox.self-e8ad79c85ab103552fe41217774cc5fae456304e84670f8c7c17de14ef4fd340.js?body=1" for ::1 at 2016-04-23 14:40:35 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/behaviors/colorize.self-38d1525d15c99eed1d6a51a0e4672e3a76fda8739444081a116dce31eab5fbd4.js?body=1" for ::1 at 2016-04-23 14:40:35 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/modules/dimmer.self-9d496ecb5f8029f47fe0d7ffc594e30b67cc5d4713c59d67090e6f94460848e6.js?body=1" for ::1 at 2016-04-23 14:40:35 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/modules/dropdown.self-a4279d1bbc3bd723288618f8c2e117b3f0b7d009d819f4ad4ab23e4853f64fe1.js?body=1" for ::1 at 2016-04-23 14:40:35 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/modules/embed.self-5023f5eee5d1d676bbf69e8057191ce1518548cf1e5ef16ee46e192ddde89fe2.js?body=1" for ::1 at 2016-04-23 14:40:35 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/behaviors/form.self-b3960c56b87b64f4f2a1a18ffdb99251e58317b41c7cbf166c10f6b96a62bb44.js?body=1" for ::1 at 2016-04-23 14:40:35 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/modules/modal.self-7d71a745bbcb21e2c2cee8f97a3e969f34bf5eaeafd43a7ae47c719463ebe044.js?body=1" for ::1 at 2016-04-23 14:40:35 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/modules/nag.self-7ff56a96079345898fdbbfc64bba769340e00b18cda9868c9f8b76d834617764.js?body=1" for ::1 at 2016-04-23 14:40:35 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/modules/popup.self-566d37031c444cb83cd7697f6039b0c590abc33fb9e6808602288a0d4c1f9b31.js?body=1" for ::1 at 2016-04-23 14:40:35 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/modules/progress.self-7e1e84a48684534003d1a4afd11152b0d7893c252f47b37a0b382f9d1c8cb05a.js?body=1" for ::1 at 2016-04-23 14:40:35 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/modules/rating.self-6af7f42a078a584ab52d559f1cf91eb0cae9b899317f87518acaf344034e2c7f.js?body=1" for ::1 at 2016-04-23 14:40:35 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/modules/search.self-408a4c1f31b7ae544382dd97f658a4ac6f4ac6da5d215cb3298d029ba0630be1.js?body=1" for ::1 at 2016-04-23 14:40:35 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/modules/shape.self-4473a25dc8678f3c387c347d8e9e5fe2c3f04029175b6e00bf69be9e929fb317.js?body=1" for ::1 at 2016-04-23 14:40:35 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/modules/sidebar.self-d9c121d30016e6838b7e235712f95993578a69099bdf2c4385c8f7a70ce0eb3a.js?body=1" for ::1 at 2016-04-23 14:40:35 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/globals/site.self-7400f8775a9f35a6c759d4a174f7a4e5d11b4078fb3b8ae706735650bbc2406f.js?body=1" for ::1 at 2016-04-23 14:40:35 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/behaviors/state.self-b9dded6fa892e116b1f452aef0e7bbbfec6ece95bee3fed65a3e8cae0db870d5.js?body=1" for ::1 at 2016-04-23 14:40:35 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/modules/sticky.self-96bf4a606adcee8c15fb8c50e86508f6a34cab1ab10bb7c1712ea73da39a89ac.js?body=1" for ::1 at 2016-04-23 14:40:35 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/modules/tab.self-5c5cec505d4abb54eb3dfd51afdb03ba257572e23b746b2d8813f2674e7fdde7.js?body=1" for ::1 at 2016-04-23 14:40:35 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/modules/transition.self-e0a5cf604f2537cf75fd0fc43f51af5f21420d614312b69787fd1abf568c06f6.js?body=1" for ::1 at 2016-04-23 14:40:35 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/behaviors/visibility.self-34dff51c9a9eaf612c9389acb9c6da0acf207a646de6d1ab1d364ff59e982efc.js?body=1" for ::1 at 2016-04-23 14:40:35 -0400
+
+
+Started GET "/assets/semantic_ui/definitions/behaviors/visit.self-25f014e441ca2211e3ecd71e8f2521aa4c36bfb4be976f5d414d2988fb2cb54d.js?body=1" for ::1 at 2016-04-23 14:40:35 -0400
+
+
+Started GET "/assets/semantic_ui/semantic_ui.self-3cd3bd495f106af3fe226c6e684292650c5e4f739ef8fbdbefbd46605bee9c39.js?body=1" for ::1 at 2016-04-23 14:40:35 -0400
+
+
+Started GET "/assets/application.self-585096b9e50cabfb98d1f409106c75e74aa4529cbef7d63593dcebd90a4aa9d5.js?body=1" for ::1 at 2016-04-23 14:40:35 -0400
+
+
+Started GET "/assets/lights.png" for ::1 at 2016-04-23 14:40:35 -0400
+
+
+Started GET "/assets/semantic_ui/themes/default/assets/fonts/icons-aadc3580d2b64ff5a7e6f1425587db4e8b033efcbf8f5c332ca52a5ed580c87c.woff2" for ::1 at 2016-04-23 14:40:35 -0400
+
+
+Started POST "/sessions" for ::1 at 2016-04-23 14:40:43 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qRw4xSwJEqvscKm9z+QiWo+6DQh65qKeBU7Dh2GLrJX+VcRk5RS4moGX89m+YU0zjuPKnE/is76Lqsp+ZM3sbw==", "username"=>"anna", "password"=>"[FILTERED]", "commit"=>"Log In"}
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT 1  [["username", "anna"]]
+Redirected to http://localhost:3000/users/landing
+Completed 302 Found in 95ms (ActiveRecord: 3.7ms)
+
+
+Started GET "/users/landing" for ::1 at 2016-04-23 14:40:43 -0400
+Processing by UsersController#landing as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered users/landing.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 238ms (Views: 236.5ms | ActiveRecord: 0.2ms)

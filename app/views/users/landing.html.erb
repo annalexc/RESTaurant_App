@@ -5,8 +5,6 @@
 <!-- (3) CREATE a NEW Table -->
 <!-- (4) CREATE a NEW Menu Item -->
 <!-- (5) Log Out -->
-
-<div class="page-wrapper">
 <h2 class="section-header">Welcome back, <%= @user.name %>!</h2>
 <div class="ui center aligned text container">
   
@@ -45,5 +43,4 @@
   <div class="ui hidden divider"></div>
 
     <%= link_to "Log Out", destroy_session_path, method: :delete, class: 'ui huge grey button' %>
-</div>
 </div>
