@@ -20,8 +20,8 @@
 
 
 body.ui.container {
-  background: url('tealbg.png') no-repeat fixed;
-  background-size: fixed;
+  background: url('lights.png') no-repeat fixed;
+  background-size: cover;
   background-color: rgb(172,199,198);
 }
 
