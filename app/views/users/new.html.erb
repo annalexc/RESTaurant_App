@@ -1,7 +1,7 @@
   <div class="page-wrapper">
     <div class="welcome">sign.up</div>
     <div class="ui text container" id="login-box">
-      <div class="ui form">
+      <div class="ui inverted form">
         <%= form_for @user  do |f| %>
           <div class="two fields">    
             <div class="field">
@@ -18,21 +18,21 @@
               <%= f.label :username %>
               <div class="ui left icon input">
                 <%= f.text_field :username, required: true %>
-                <i class="user icon"></i>
+                <i class="inverted user icon"></i>
               </div>
             </div>
             <div class="field">
               <%= f.label :password %>
               <div class="ui left icon input">
                 <%= f.password_field :password, required: true %>
-                <i class="lock icon"></i>
+                <i class="inverted lock icon"></i>
               </div>
             </div>
             <div class="field">
               <%= f.label "Confirm password" %>
               <div class="ui left icon input">
                 <%= f.password_field :password_confirmation, required: true %>
-                <i class="lock icon"></i>
+                <i class="inverted lock icon"></i>
               </div>
             </div>
           </div>

@@ -4,23 +4,19 @@
 <!-- (2) VIEW all the comprising guests of that party -->
 <!-- (3) SELECT a guest to subsequently create a order -->
 <!-- (3) CHECKOUT the party (mark the party as PAID) -->
-
-<div class="ui center aligned vertical segment">
-
-<h1>Table <%= @party.table.table_num %> > Party of <%= @party.size %> </h1>
-
-<!-- HOME BUTTON here for now.... -->
-<a href="/users/landing" class="ui yellow right labeled icon button">
-  <i class="home icon"></i>Home </a>
-<div class="ui hidden divider"></div>
-<!-- HOME BUTTON END -->
 <div class="ui text container">
+  <%= render 'navigation' %>
+  <div class="ui center aligned vertical segment">
+
+  <h5 class="ui inverted header main-menu">Party of <%= @party.size %></h5>
+
+
   <div class="ui centered grid">
     <div class="ui vertical segment"></div>
       <% @party.customers.each do |customer| %> 
         <%= link_to(customer_path(customer.id), class: 'ui center aligned huge icon header') do %>
-          <i class="circular inverted teal user icon"></i>
-          <div class="ui sub header">Guest <%= customer.customer_num %> 
+          <i class="circular inverted orange user icon"></i>
+          <div class="ui tiny inverted white sub header">Guest <%= customer.customer_num %> 
             <div class="small ui label"><%= customer.orders.size %></div>
           </div>
         <% end %>
@@ -31,13 +27,12 @@
 <button class="ui secondary button view-receipt">
   View Receipt
 </button>
-  
-  <!-- CHECKOUT MODAL -->
 
-  <div class="ui medium modal">
-    <i class="close icon"></i>
-    <%= render 'partyreceipt' %>
-  </div>
+</div>
+  
+<div class="receipt-modal">
+  <%= render 'partyreceipt' %>
+</div>
 
 
 

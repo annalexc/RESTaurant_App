@@ -1,33 +1,6 @@
-<!-- CUSTOMER SHOW PAGE -->
-<!-- As a user, I want to be able to: -->
-<!-- (1) VIEW the menu selection of a given CUSTOMER -->
 
-<div class="ui center aligned vertical segment">
+<div class="ui text container">
+  <%= render 'navigation' %>
+  <div class="ui center aligned vertical segment">
 
-  <h1>Table <%= @customer.party.table.table_num %> > Party of <%= @customer.party.size %> > Customer <%= @customer.customer_num %> > Order</h1>
-
-  <!-- HOME BUTTON here for now.... -->
-  <a href="/users/landing" class="ui yellow right labeled icon button">
-    <i class="home icon"></i>Home </a>
-  <!-- HOME BUTTON END -->
-
-  <!-- CART BUTTON -->
-  <div class="ui secondary menu">
-    <%= link_to(customer_orders_path(@customer.id), class: 'ui item') do %>
-      <i class="icon cart"></i> Order
-      <div class="ui yellow label"><%= @order_size %></div>
-    <% end %>
-  </div>
-  
-  
-
-  <%= render 'menu' %> 
-</div>
-
-
-<!-- MODAL -->
-
-<div class="ui small modal">
-  <i class="close icon"></i>
-  <%= render 'additem_form' %>
-</div>
+  <h5 class="ui inverted header main-menu">Guest <%= @customer.customer_num %> Order</h5>

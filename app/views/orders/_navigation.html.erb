@@ -1,0 +1,6 @@
+<div class="ui secondary pointing menu">
+  <%= link_to "Parties", user_parties_path, class: "white item" %>
+  <%= link_to "Table #{@customer.party.table.table_num}", party_path(@customer.party_id), class: "white item" %>
+  <%= link_to "Guest #{@customer.customer_num}", customer_path(@customer.id), class: "white item" %>
+   <a class="active item">Order<i class="spoon icon"></i></a>
+</div>

@@ -9,7 +9,15 @@ class OrdersController < ApplicationController
   end
 
   def new
-     
+    @customer = Customer.find(params[:customer_id])
+    @items = Item.all
+    @drinks = Item.where(itype_id: [1,2,3,4])
+    @appetizers = Item.where(itype_id: 5)
+    @entrees = Item.where(itype_id: 6)
+    @desserts = Item.where(itype_id: 7)
+    @sides = Item.where(itype_id: 8)
+    @new_order = Order.new
+    @order_size = Order.where(customer_id: @customer.id).size
   
   end
 

@@ -13,10 +13,9 @@ Rails.application.routes.draw do
 
   # resources :parties
   resources :parties
-
-  get '/users/login'    => "users#login", as: :login
-  get '/users/parties'  => "users#parties", as: :user_parties
-  get '/users/landing'  => "users#landing", as: :landing
-  post '/sessions'    => "sessions#create", as: :create_session
-  delete '/sessions'  => "sessions#destroy", as: :destroy_session
+  get '/users/login'      => "users#login", as: :login
+  get '/users/parties'    => "users#parties", as: :user_parties
+  get '/users/landing'    => "users#landing", as: :landing
+  post '/sessions'        => "sessions#create", as: :create_session
+  delete '/sessions'      => "sessions#destroy", as: :destroy_session
 end

@@ -8,15 +8,63 @@
   <%= csrf_meta_tags %>
 </head>
 <body class="ui container" id="bg-main">
+  
+  <!-- LAUNCH ICON -->
   <div class="launch icon item">
     <i class="big icons">
-      <i class="big inverted thin circle icon"></i>
-      <i class="sidebar inverted icon toggle-button"></i>
+      <i class="small circular inverted orange sidebar icon toggle-button"></i>
     </i>
   </div>
 
 
-<%= yield %>
+  <!-- MAIN DROPDOWN MENU -->
+  <div class="ui vertical inverted centered sidebar menu top">
+    <div class="ui text container">
+    <div class="menu">
+    
+      <!-- THE FLOOR -->
+      <div class="ui horizontal divider">
+        <h2 class="section-header">
+          The Floor <i class="small fitted cocktail icon"></i>
+        </h2> 
+      </div>
+        
+      <%= link_to "YOUR PARTIES", user_parties_path, class: 'inverted header main-menu' %>
+      <div class="ui hidden fitted divider"></div>
+      <%= link_to "ADD NEW PARTY", parties_path, class: 'inverted header main-menu' %>
+      
+
+      <!-- THE KITCHEN -->
+      <div class="ui horizontal divider">
+        <h2 class="section-header">
+          The Kitchen <i class="small fitted spoon icon"></i>
+        </h2> 
+      </div>
+       
+
+      <!-- THE HOUSE -->
+      <div class="ui horizontal divider">
+        <h2 class="section-header">
+          The House <i class="small fitted book icon"></i>
+        </h2> 
+      </div>
+      <%= link_to "MANAGE MENU", landing_path, class: 'inverted header main-menu' %>
+      <div class="ui hidden fitted divider"></div>
+      <%= link_to "MANAGE TABLE LIST", tables_path, class: 'inverted header main-menu' %>
+
+      <div class="ui hidden divider"></div>
+      <%= link_to "LOG OUT", destroy_session_path, method: :delete, class: 'ui big inverted logout button' %>
+      
+      <div class="ui hidden divider"></div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- SITE CONTENT -->
+  <div class="pusher">
+    <%= yield %>
+  </div>
 
 </body>
 </html>

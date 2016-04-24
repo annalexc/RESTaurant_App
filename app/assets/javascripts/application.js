@@ -16,24 +16,50 @@
 
 $(function(){
 
+  $('.top.sidebar').sidebar('attach events', '.toggle-button');
+    
+
   // SHOW MODAL functionality for CUSTOMER ORDER SELECTION
-  $('.user-selection').on('click', function(){
+  $('.modal-trigger').on('click', function(){
       var selectText = $(this).find('.select-text').text().trim();
       console.log(selectText);
 
       var optionValue = parseInt($('form option').filter(function () { return $(this).text() == selectText; }).val());
       console.log(optionValue);
 
-      $('.small.modal').find('.header').text("Add Item -  " + selectText);
+      $('.item-header').text("Add Item -  " + selectText);
 
       $('form select').val(optionValue);
   });
 
-  $('.small.modal').modal('attach events', '.user-selection', 'show');
+
+  $('.modal-trigger').on('click', function() {
+    console.log("You clicked the open button!");
+    $('.modal').toggle().fadeIn();
+  });
+
+  $(".close-modal").on('click', function() {
+    console.log("You clicked the close button!");
+    $(".modal").toggle();
+  });
 
 
-  // SHOW MODAL functionality for CUSTOMER ORDER SELECTION
 
-  $('.medium.modal').modal('attach events', '.view-receipt', 'show');
+
+
+
+
+
+
+  // $('.small.modal').modal('attach events', '.user-selection', 'show');
+
+
+  // // SHOW MODAL functionality for CUSTOMER ORDER SELECTION
+
+  // $('.medium.modal').modal('attach events', '.view-receipt', 'show');
+
+   
+
+
 
 });

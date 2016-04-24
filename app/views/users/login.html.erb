@@ -14,16 +14,16 @@
             <!-- USERNAME FIELD -->
             <div class="field">
               <%= label_tag :username %>
-              <div class="ui left icon inverted transparent input">
+              <div class="ui left icon input">
                 <i class="user inverted icon"></i>
                   <%= text_field_tag :username %>
               </div>
             </div>
-            <div class="ui divider"></div>
+
             <!-- PASSWORD FIELD -->
             <div class="field">
               <%= label_tag :password %>
-              <div class="ui left icon inverted transparent input">
+              <div class="ui left icon input">
                 <i class="lock inverted icon"></i>
                 <%= password_field_tag :password %>
               </div>
@@ -44,10 +44,10 @@
         <h2 class="ui inverted header">New around here?</h2>
   
         <!-- SIGN UP BUTTON -->
-        <div class="ui huge orange right labeled icon button">
+        <%= link_to(new_user_path, class: 'ui huge orange right labeled icon button') do %>
+          Sign Up
           <i class="add user inverted icon"></i>
-          <%= link_to "Sign Up", new_user_path %>
-        </div>
+        <% end %>  
       </div> <!-- SIGN UP CONTAINER END -->
     </div>
   </div> <!-- LOG BOX CONTAINER END -->

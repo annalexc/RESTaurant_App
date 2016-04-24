@@ -1,46 +1,10 @@
-<!-- LANDING PAGE -->
-<!-- As a user, I want to be PRESENTED WITH OPTIONS to: -->
-<!-- (1) MANAGE (View/Edit) my current parties/tables -->
-<!-- (2) MANAGE (View/Edit) Menu Items -->
-<!-- (3) CREATE a NEW Table -->
-<!-- (4) CREATE a NEW Menu Item -->
-<!-- (5) Log Out -->
-<h2 class="section-header">Welcome back, <%= @user.name %>!</h2>
-<div class="ui center aligned text container">
+<div class="page-wrapper">
+  <h2 class="section-header">Welcome back, <%= @user.name %>!</h2>
+    <div class="ui center aligned text container">
   
-    <p>What would you like to do today?</p>
+  <p>What would you like to do today?</p>
 
-  <div class="ui horizontal divider"><h2 class="section-header">operate</h2> </div>
-  <div class="ui hidden divider"></div>
-    <a href="/parties" class="ui huge yellow right labeled icon landing button">
-      <i class="spoon icon"></i>
-      New Party
-    </a>
-    
-    <div class="ui hidden divider"></div>
 
-    <a href="/users/parties" class="ui huge yellow right labeled icon landing button">
-      <i class="spoon icon"></i>
-      Manage Parties
-    </a>
-
-  <div class="ui hidden divider"></div>
-
-  <div class="ui horizontal divider"><h2 class="section-header">maintain</h2> </div>
-  
-  <div class="ui hidden divider"></div>
-    <a href="/tables" class="ui huge teal right labeled icon landing button">
-      <i class="configure icon"></i>
-      Manage Tables
-    </a>
-
-  <div class="ui hidden divider"></div>
-    <a href="/items" class="ui huge teal right labeled icon landing button">
-      <i class="configure icon"></i>
-      Manage Menu
-    </a>
-
-  <div class="ui hidden divider"></div>
-
-    <%= link_to "Log Out", destroy_session_path, method: :delete, class: 'ui huge grey button' %>
 </div>
+
+

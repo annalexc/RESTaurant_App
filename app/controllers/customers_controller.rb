@@ -4,6 +4,18 @@ class CustomersController < ApplicationController
     @customers = Customer.all.order(:id)
   end
 
+  def menu
+    @customer = Customer.find(params[:id])
+    @items = Item.all
+    @drinks = Item.where(itype_id: [1,2,3,4])
+    @appetizers = Item.where(itype_id: 5)
+    @entrees = Item.where(itype_id: 6)
+    @desserts = Item.where(itype_id: 7)
+    @sides = Item.where(itype_id: 8)
+    @new_order = Order.new
+    @order_size = Order.where(customer_id: @customer.id).size
+  end
+
   def show
     @customer = Customer.find(params[:id])
     @items = Item.all

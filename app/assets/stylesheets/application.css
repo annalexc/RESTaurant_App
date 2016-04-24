@@ -14,29 +14,46 @@
  *= require_self
  */
 
-@import url(https://fonts.googleapis.com/css?family=Londrina+Solid);
 @import url(https://fonts.googleapis.com/css?family=Grand+Hotel);
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
 
 
-body.ui.container {
+body.pushable.ui.container {
   box-sizing: border-box;
   width: 100%;
   height: 100%;
   margin: 0 auto;
-  background-color: black;
+  background-color: rgb(0,39,72) !important;
 }
+
+.pusher {
+  background-color: transparent !important;
+  position: absolute !important;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 
 .launch.icon.item {
   position: fixed;
   top: 4%;
-  right: 4%;
+  right: 10%;
+  z-index: 1000;
 }
 
 .thin.circle.icon {
   margin: 0;
-  padding: 0 0 0 4px;
+  padding: 0 0 0 0;
 }
 
+.ui.vertical.inverted.sidebar.menu.top {
+  background: url('lights-transparent.png') no-repeat fixed;
+  background-size: cover;
+  /*background-color: rgba(0,0,0,0.45);*/
+  text-align: center;
+}
 
 .page-wrapper {
   position: absolute;
@@ -68,30 +85,78 @@ body.ui.container {
   line-height: 1.12;
 }
 
-h2.section-header {
-  font: 2em 'Grand Hotel';
+.section-header {
+  font: 2.5em 'Grand Hotel';
+  font-weight: 400;
+  color: rgba(255,210,127, 1);
   text-align: center;
   margin-top: 40px;
   text-transform: capitalize;
 }
 
-.bg-main, .bg-blue, .bg-pink {
-  position: absolute;
+.page-header {
+  font: 2.5em 'Oswald';
+  text-align: center;
+  margin-top: 40px;
+}
+
+.main-menu,  a.logout.button { 
+  font-family: 'Oswald' !important; 
+}
+
+.main-menu { 
+  font-size: 2.5em !important;
+  line-height: 1.7;
+}
+
+input[type="text"], input[type="password"] {
+  color: white !important;
+  font-family: 'Lato' !important;
+}
+
+.white {color: white !important;}
+
+/* Modal Styling */
+.modal {
   top: 0;
-  height: 100%;
+  left: 0;
+  position: fixed;
+  display: none;
   width: 100%;
-  z-index: -1;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5);
 }
 
-.bg-main {
-  background: url('https://joetowey.files.wordpress.com/2015/10/plexus-balloons1.gif') no-repeat fixed;
-  background-size: cover;
-  opacity: 0.75;
+a.item {
+  padding: 13px 8px !important;
+}
+.modal-body {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.bg-blue { background-color: rgb(82,175,243); }
+.modal-content {
+  position: relative;
+  background-color: transparent;
+  border-radius: 0.5rem;
+}
 
-.bg-pink { background-color: rgb(243,135,138); }
+.close-modal {
+  position: absolute;
+  z-index: 10;
+  top: 4%;
+  right: 0;
+}
+
+.close-modal:hover {
+  cursor: pointer;
+}
 
 .ui.card {
   padding: 20px 0 !important;
@@ -104,7 +169,7 @@ h2.section-header {
   padding-bottom: 0;
 }
 
-/* Styles for Available & Unavailable Tables */
+/* Available & Unavailable Table Styling */
 
 .selectable-table > .ui.circular.segment {
   background-color: rgb(222,213,119);
@@ -131,7 +196,7 @@ div.subtotal.row {
   position: relative;
 }
 
-a, a:hover { color: white !important;}
+/*a, a:hover { color: white !important;}*/
 
 
 @media all and (max-width:630px) {
@@ -140,12 +205,18 @@ a, a:hover { color: white !important;}
     background-size: cover;
     background-position: right top;
   }
+
   .launch.icon.item {
     position: fixed;
-    top: 2%;
-    right: 4%;
+    top: 4%;
+    right: 2%;
   }
-
+  .close-modal {
+  position: absolute;
+  z-index: 10;
+  top: -4%;
+  right: 0;
+  }
 
 }
 

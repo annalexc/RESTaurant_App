@@ -1,20 +1,14 @@
-<div class="ui center aligned vertical segment">
-  <h1>Your Parties</h1>
-    
-  <!-- HOME BUTTON here for now.... -->
-  <a href="/users/landing" class="ui yellow right labeled icon button">
-    <i class="home icon"></i>Home </a>
-  <div class="ui hidden divider"></div>
-  <!-- HOME BUTTON END -->
-
-  <div class="ui text container">
+<div class="ui text container">
+<%= render 'navigation' %>
+  <div class="ui center aligned vertical segment">
+    <h5 class="ui inverted header main-menu">Your Parties</h5>
     <div class="ui centered grid">
       <div class="ui vertical segment"></div>
         <% @active_parties.each do |party| %>
       
           <%= link_to(party_path(party.id), class: 'ui center aligned huge icon header') do %>
-            <i class="circular inverted teal users icon"></i>
-            <h2 class="ui header">Table <%= party.table.table_num %>
+            <i class="circular inverted orange users icon"></i>
+            <h2 class="ui inverted header">Table <%= party.table.table_num %>
               <div class="ui sub header">Party of <%= party.size %></div>
             </h2>
             
