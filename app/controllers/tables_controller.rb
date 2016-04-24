@@ -7,7 +7,7 @@ class TablesController < ApplicationController
   end
 
   def new
-    @table = Table.new
+    @new_table = Table.new
   end
 
   def create

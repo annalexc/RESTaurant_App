@@ -1,79 +1,99 @@
-<h3>Drinks</h3>
-<div class="ui text container">
-  <div class="ui two column centered grid">
+
+<h3 class="ui large orange horizontal divider header">Drinks</h3>
+<div class="ui thinner text container">
+  <div class="ui two column centered grid"> 
     <% @drinks.each do |drink| %>
-      <div class="row user-selection">
-        <div class="twelve wide mobile five wide tablet five wide computer column select-text">
+      <div class="row">
+        <div class="thirteen wide column menu-column">
+        
+        <a href="/items/<%= drink.id %>/edit"><i class="left floated fitted large orange edit icon"></i></a>
           <%= drink.description %>
         </div>
-        <div class="four wide mobile two wide tablet two wide computer column">
-          $ <%= drink.price %>
+        <div class="three wide column">
+          <%= number_to_currency(drink.price) %>
         </div>
       </div>
     <% end %>
   </div>
 </div>
+<div class="ui hidden divider"></div>
 
-<h3>Appetizers</h3>
-<div class="ui text container">
-  <div class="ui two column centered grid">
+
+<h3 class="ui large orange horizontal divider header">Appetizers</h3>
+<div class="ui thin thinner text container">
+  <div class="ui two column centered grid"> 
     <% @appetizers.each do |appetizer| %>
-      <div class="row user-selection">
-        <div class="twelve wide mobile five wide tablet five wide computer column select-text">
+      <div class="row">
+        <div class="thirteen wide column menu-column">
+        
+        <a href="/items/<%= appetizer.id %>/edit"><i class="left floated fitted large orange edit icon"></i></a>
           <%= appetizer.description %>
         </div>
-        <div class="four wide mobile two wide tablet two wide computer column">
-          $ <%= appetizer.price %>
+        <div class="three wide column">
+          <%= number_to_currency(appetizer.price) %>
         </div>
       </div>
     <% end %>
   </div>
 </div>
+<div class="ui hidden divider"></div>
 
 
-<h3>Entrees</h3>
-<div class="ui text container">
-  <div class="ui two column centered grid">
+<h3 class="ui large orange horizontal divider header">Entrees</h3>
+<div class="ui thin thinner text container">
+  <div class="ui two column centered grid"> 
     <% @entrees.each do |entree| %>
-      <div class="row user-selection">
-        <div class="twelve wide mobile five wide tablet five wide computer column select-text">
+      <div class="row">
+        <div class="thirteen wide column menu-column">
+       
+        <a href="/items/<%= entree.id %>/edit"><i class="left floated fitted large orange edit icon"></i></a>
           <%= entree.description %>
         </div>
-        <div class="four wide mobile two wide tablet two wide computer column">
-          $ <%= entree.price %>
+        <div class="three wide column">
+          <%= number_to_currency(entree.price) %>
         </div>
       </div>
     <% end %>
   </div>
 </div>
+<div class="ui hidden divider"></div>
 
 
-<h3>Sides</h3>
-<div class="ui text container">
-  <div class="ui two column centered grid">
+
+
+<h3 class="ui large orange horizontal divider header">Sides</h3>
+<div class="ui thin thinner text container">
+  <div class="ui two column centered grid"> 
     <% @sides.each do |side| %>
-      <div class="row user-selection">
-        <div class="twelve wide mobile five wide tablet five wide computer column select-text">
+      <div class="row">
+        <div class="thirteen wide column menu-column">
+        
+        <a href="/items/<%= side.id %>/edit"><i class="left floated fitted large orange edit icon"></i></a>
           <%= side.description %>
         </div>
-        <div class="four wide mobile two wide tablet two wide computer column">
-          $ <%= side.price %>
+        <div class="three wide column">
+          <%= number_to_currency(side.price) %>
         </div>
       </div>
     <% end %>
   </div>
 </div>
+<div class="ui hidden divider"></div>
 
-<h3>Desserts</h3>
-<div class="ui text container">
-  <div class="ui two column centered grid">
+
+
+<h3 class="ui large orange horizontal divider header">Desserts</h3>
+<div class="ui thin thinner text container">
+  <div class="ui two column centered grid"> 
     <% @desserts.each do |dessert| %>
-      <div class="row user-selection">
-        <div class="twelve wide mobile five wide tablet five wide computer column select-text">
+      <div class="row">
+        <div class="thirteen wide column menu-column">
+       
+        <a href="/items/<%= dessert.id %>/edit"><i class="left floated fitted large orange edit icon"></i></a>
           <%= dessert.description %>
         </div>
-        <div class="four wide mobile two wide tablet two wide computer column">
-          $ <%= dessert.price %>
+        <div class="three wide column">
+          <%= number_to_currency(dessert.price) %>
         </div>
       </div>
     <% end %>

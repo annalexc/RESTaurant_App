@@ -3,20 +3,26 @@
 <!-- (1) VIEW the menu selection of a given CUSTOMER -->
 <div class="ui text container">
 <%= render 'navigation' %> 
-
+  
   <div class="ui center aligned vertical segment">
+    <h5 class="ui inverted header secondary-font main-menu">Add Items - Guest <%= @customer.customer_num %></h5>
+    
+    <div class="ui text container thinner">
+      <div class="ui secondary fluid two item menu">
+        <!-- REVIEW ORDERS -->
+        <%= link_to(customer_path(@customer.id), class: 'white fitted item') do %>
+          Review Order
+          <div class="ui orange label"><%= @order_size %></div>
+        <% end %>
+        <!-- NEXT GUEST -->
+        <% if @customer.party.size > 1 %>
+          <%= link_to(new_customer_order_path(@next_customer.id), class: 'white fitted item') do %>
+             <i class="inverted arrow circle right icon"></i>Next Guest Order
+          <% end %>
+        <% end %>
+      </div>
+    </div>
 
-  <h5 class="ui inverted header secondary-font main-menu">Add Items - Guest <%= @customer.customer_num %></h5>
-
-  <!-- CART BUTTON -->
-  <div class="ui secondary menu">
-    <%= link_to(customer_orders_path(@customer.id), class: 'ui item') do %>
-      <i class="icon cart"></i> Order
-      <div class="ui orange label"><%= @order_size %></div>
-    <% end %>
-  </div>
-  
-  
 
   <%= render 'menu' %> 
 </div>

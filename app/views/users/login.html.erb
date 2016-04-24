@@ -16,7 +16,7 @@
               <%= label_tag :username %>
               <div class="ui left icon input">
                 <i class="user inverted icon"></i>
-                  <%= text_field_tag :username %>
+                  <%= text_field_tag :username, nil, class: 'inverted' %>
               </div>
             </div>
 
@@ -25,7 +25,7 @@
               <%= label_tag :password %>
               <div class="ui left icon input">
                 <i class="lock inverted icon"></i>
-                <%= password_field_tag :password %>
+                <%= password_field_tag :password, nil, class: 'inverted' %>
               </div>
             </div>
 

@@ -9,6 +9,7 @@ Rails.application.routes.draw do
     resources :orders 
   end
 
+  resources :items
 
 
   # resources :parties

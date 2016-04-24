@@ -1,20 +1,30 @@
-<!-- PARTY SHOW PAGE -->
-<!-- As a user, I want to be able to: -->
-<!-- (1) VIEW the details of a single UNPAID party -->
-<!-- (2) VIEW all the comprising guests of that party -->
-<!-- (3) SELECT a guest to subsequently create a order -->
-<!-- (3) CHECKOUT the party (mark the party as PAID) -->
+<!-- INDIVIDUAL PARTY SHOW PAGE -->
+
 <div class="ui text container">
   <%= render 'navigation' %>
   <div class="ui center aligned vertical segment">
 
   <h5 class="ui inverted header secondary-font main-menu">Party of <%= @party.size %></h5>
 
+  <div class="ui text container thinner">
+      <div class="ui secondary fluid two item menu">
+        <!-- View Receipt -->
+        <a class="white item modal-trigger">
+          <i class="payment icon"></i>Checkout Party
+        </a>
+        <!-- NEXT GUEST -->
+        <a class="white item">
+         <i class="inverted arrow circle right icon"></i>Send to Kitchen
+        </a>
+      </div>
+    </div>
+
+
 
   <div class="ui centered grid">
     <div class="ui vertical segment"></div>
       <% @party.customers.each do |customer| %> 
-        <%= link_to(customer_path(customer.id), class: 'ui center aligned huge icon header') do %>
+        <%= link_to(new_customer_order_path(customer.id), class: 'ui center aligned huge icon header') do %>
           <i class="circular inverted orange user icon"></i>
           <div class="ui tiny inverted white sub header">Guest <%= customer.customer_num %> 
             <div class="small ui label"><%= customer.orders.size %></div>
@@ -22,11 +32,6 @@
         <% end %>
       <% end %>
     </div>
-
-<div class="ui hidden divider"></div>
-<button class="ui secondary button modal-trigger">
-  View Receipt
-</button>
 
 </div>
 <!-- Receipt Modal -->

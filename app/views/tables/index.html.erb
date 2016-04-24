@@ -1,60 +1,28 @@
 <!-- TABLE INDEX PAGE -->
+<div class="ui text container">
+<%= render 'navigation' %>
+  <div class="ui center aligned vertical segment">
 
 
-<div class="ui center aligned vertical segment">
-  <h1>New Table Form</h1>
-
-  <!-- HOME BUTTON here for now.... -->
-  <a href="/users/landing" class="ui yellow right labeled icon button">
-    <i class="home icon"></i>Home </a>
-  <div class="ui hidden divider"></div>
-  <!-- HOME BUTTON END -->
-
-    <div class="ui text container">
-      <div class="ui form">
-        <%= form_for @new_table  do |f| %>
-          <div class="equal width fields">    
-            <div class="field">
-              <%= f.label :table_num %>
-              <%= f.number_field :table_num, required: true %>
-            </div>
-            <div class="field">
-              <%= f.label :num_seats, "No. of Seats" %>
-              <%= f.number_field :num_seats, required: true %>
+    <h5 class="ui inverted header secondary-font main-menu">CURRENT TABLES</h5>
+    <div class="hidden ui divider"></div>
+      <div class="ui centered grid">
+      
+        <% @tables.each do |table| %>
+         <div class="ui vertical segment">
+            <div class="ui circular segment tables">
+              <h3 class="ui header">Table <%= table.table_num %>
+                <div class="sub header">Seats: <%= table.num_seats %></div>
+              </h3>
             </div>
           </div>
-          <p></p>
-          <%= f.submit 'Create Table', :class => 'ui teal button' %>
-
-          <a href="/users/landing" class="ui yellow right labeled icon button">
-            <i class="home icon"></i>
-            Home
-          </a>
-          <div class="ui hidden divider"></div>
         <% end %>
       </div>
-    </div>
-</div>
-
-<div class="ui vertical segment">
-    <div class="ui four centered doubling cards">
-      <% @tables.each do |table| %>
-        <div class="ui card ">
-          <div class="content">
-              
-              <!-- User Action Icons -->
-              <a rel="nofollow" data-method="delete" href="/tables/<%= table.id %>"><i class="right floated large teal remove icon"></i></a>
-              <a href="/tables/<%= table.id %>/edit"><i class="right floated large teal edit icon"></i></a>
-              <!-- End User Action Icons -->
-
-            <div class="header">Table #<%= table.table_num %></div>
-
-            <div class="meta">
-              <span class="category">Seats: <%= table.num_seats %></span>
-            </div>
-            <div class="ui divider"></div>
-          </div>
-        </div>
-      <% end %>
-    </div>
+<div class="ui hidden divider"></div>
+<div class="ui hidden divider"></div>
+<div class="ui thinner text container">
+  <h1 class="ui orange horizontal divider secondary-font header">ADD A TABLE</h1>      
+  <div class="ui center aligned vertical segment">
+    <%= render 'addtable_form' %>
   </div>
+</div>

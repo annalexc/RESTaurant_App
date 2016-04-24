@@ -18,7 +18,19 @@ class OrdersController < ApplicationController
     @sides = Item.where(itype_id: 8)
     @new_order = Order.new
     @order_size = Order.where(customer_id: @customer.id).size
-  
+    @party = @customer.party.id
+    
+    customers = Customer.where(party_id: @party)
+    indexes = customers.map{|x| x[:id]}
+      
+      if @party.size > 1
+        i = indexes.index(@customer.id)
+        if i == (indexes.size-1)
+          @next_customer = Customer.find(indexes[0])
+        else
+          @next_customer = Customer.find(indexes[i+1])
+        end
+      end
   end
 
   def show
@@ -27,7 +39,8 @@ class OrdersController < ApplicationController
 
   def create
     new_order = Order.create(order_params)
-    redirect_to customer_path new_order.customer_id
+    redirect_to new_customer_order_path new_order.customer_id
+
   end
 
   def edit

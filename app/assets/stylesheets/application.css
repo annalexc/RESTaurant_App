@@ -89,10 +89,15 @@ body.pushable.ui.container {
 }
 
 
-.ui.secondary.pointing.menu {
-  margin-top: 10px;
+
+
+.ui.secondary.menu {
+  margin: 0 auto;
 }
 
+.ui.secondary.pointing.menu {
+  margin: 10px 0 14px 0;
+}
 
 
 .landing { width: 290px; }
@@ -114,28 +119,30 @@ body.pushable.ui.container {
   margin-top: 40px;
 }
 
-/*.main-menu,  a.logout.button { 
-  font-family: 'Oswald' !important; 
-}
-*/
 .main-menu { 
   font-size: 2.5em !important;
   line-height: 1.7;
 }
 
-input[type="text"], input[type="password"], input[type="number"] {
+input[type="text"].inverted, input[type="password"].inverted, input[type="number"].inverted {
   color: white !important;
   font-family: 'Lato' !important;
 }
 
-input[type="number"] {
-  font-size: 2em !important;
+input[type="number"].inverted {
+  font-size: 1.5em !important;
   text-align: center;
+  border: 2px solid rgba(255,255,255,0.5) !important;
+  border-radius: .5em !important;
 }
 
+.ui.circular.segment.tables {
+  padding: 30px 20px;
+}
 .modal input[type="text"], .receipt >.row {
   color: black !important;
 }
+
 
 
 
@@ -221,21 +228,33 @@ div.subtotal.row {
 }
 
 
-.dimmed { color: rgba(255,255,255,0.65) !important;}
+.dimmed { color: rgba(255,255,255,0.65);}
 
 
 
 a:hover{ cursor: pointer;}
 a.item { padding: 13px 8px !important; }
+
 .no-display { display:none; }
 .italic {font-style: italic;}
 .secondary-font { font-family:'Oswald' !important; }
 .white { color: white !important; }
 .normal { font-weight: 400 !important }
+.thin { width: 75% !important; }
 .thinner { width: 60% !important; }
+.thinnest { width: 40% !important; }
+.centered { text-align: center; }
 .row.basic.button{
   padding: 14px 0 !important;
   margin: 7px 0;
+}
+
+.ui.labeled.button {
+  width: 100% !important;
+}
+
+.menu-column {
+  padding-right: 0 !important;
 }
 
 @media all and (max-width:630px) {

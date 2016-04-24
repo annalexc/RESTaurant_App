@@ -1,0 +1,27 @@
+<div class="ui thinner text container">
+<div class="ui inverted left aligned form">
+    <div class="ui header item-header"></div>
+      <%= form_for @new_item do |f| %>
+      <div class="ui two fields">
+        <div class="twelve wide field">
+          <%= f.label :description %>
+          <%= f.text_field :description, required: true, class: 'inverted' %>
+        </div> 
+
+           <div class="four wide field">
+          <%= f.label :price %>
+          <%= f.number_field :price, step: 0.01, required: true, class: 'white' %>
+        </div>
+      </div>  
+        <div class="eight wide field">
+          <%= f.label 'Menu Item Type' %>
+          <%= f.collection_select(:itype_id, @itypes, :id, :description, class: 'ui dropdown', required: true) %>
+        </div> 
+        
+       <div class="ui hidden divider"></div>
+       <div class="ui center aligned container">
+        <%= f.submit 'ADD NEW ITEM', :class => 'ui huge inverted secondary-font button' %>
+        </div>
+      <% end %>
+  </div>
+</div>

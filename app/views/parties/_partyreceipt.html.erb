@@ -1,6 +1,11 @@
 <div class="ui text container">
+  <i class='close-modal big red remove circle icon'></i>
   <div class="ui form">
-    <div class="ui segment"> 
+    
+    <div class="ui padded segment">
+      <h2 class="ui header">View Receipt</h2>
+     
+      <div class="ui divider"></div>
       <div class="ui two column centered receipt grid"> 
         <% @party.customers.each do |customer| %> 
           <% customer_subtotal = 0 %>
@@ -48,7 +53,7 @@
       <%= form_for @party do |f| %> 
         <%= f.hidden_field :is_paid, value: 1 %>
         <div class="ui center aligned container">
-          <%= f.submit 'Checkout', :class => 'ui big teal button' %>
+          <%= f.submit 'Confirm Checkout', :class => 'ui big orange button' %>
         </div>
       <% end %> 
       <!-- CHECKOUT BUTTON END -->

@@ -1,0 +1,23 @@
+<div class="ui thin text container">
+<div class="ui inverted left aligned form">
+    <div class="ui header item-header"></div>
+      <%= form_for @new_table do |f| %>
+      <div class="ui two fields">
+     
+        <div class="eight wide field">
+          <%= f.label :table_num, "Table Number" %>
+          <%= f.number_field :table_num, step: 1, required: true, class: 'white inverted' %>
+        </div>
+
+        <div class="eight wide field">
+          <%= f.label :num_seats, "No. of Seats" %>
+          <%= f.number_field :num_seats, step: 1, required: true, class: 'white inverted' %>
+        </div>
+        </div>
+       <div class="ui hidden divider"></div>
+       <div class="ui center aligned container">
+        <%= f.submit 'ADD NEW TABLE', :class => 'ui huge inverted secondary-font button' %>
+        </div>
+      <% end %>
+  </div>
+</div>

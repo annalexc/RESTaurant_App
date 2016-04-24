@@ -3,19 +3,19 @@
     <div class="ui center aligned vertical segment">
     <h5 class="ui inverted header secondary-font main-menu">New Party - Table <%= @table.table_num %></h5>
 
-    <div class="ui text center aligned container">
-      <div class="ui inverted center form">
+    <div class="ui thinnest text center aligned container">
+      <div class="ui inverted centered large form">
         <%= form_for @party do |f| %> 
           <div class="field">
-            <%= f.label 'Number of Guests' %>
-            <%= f.number_field(:size, min: 1, max: @table.num_seats, required: true) %>
+            <%= f.label 'Enter Number of Guests:' %>
+            <%= f.number_field(:size, min: 1, max: @table.num_seats, class: 'ui input inverted', required: true) %>
           </div>
         
           <div class="field">
             <%= f.hidden_field(:table_id, value: @table.id) %>
           </div>
             <p></p>
-          <%= f.submit 'ADD PARTY', :class => 'ui inverted oswald button' %>
+          <%= f.submit 'ADD PARTY', :class => 'ui inverted huge secondary-font button' %>
         <% end %>
       </div>
     </div>

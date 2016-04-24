@@ -1,0 +1,26 @@
+<div class="ui text container">
+<i class='close-modal big red remove circle icon'></i>
+<div class="ui form selection">
+  <div class="ui padded segment">
+    <div class="ui header item-header"></div>
+      <%= form_for @new_item do |f| %>
+
+        <div class="field">
+          <%= f.label :description, 'Describe Your New Addition' %>
+          <%= f.text_field :description %>
+        </div>   
+        <div class="field">
+          <%= f.label 'Menu Item Type' %>
+          <%= f.collection_select(:itype_id, @itypes, :id, :description, required: true) %>
+        </div> 
+        
+        <div class="field">
+          <%= f.label :price %>
+          <%= f.number_field :price, class: 'normal-number' %>
+        </div>
+       
+          <%= f.submit 'Add To Menu', :class => 'ui right orange button' %>
+      <% end %>
+  </div>
+</div>
+</div>
