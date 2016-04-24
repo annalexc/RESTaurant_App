@@ -25,6 +25,8 @@ class PartiesController < ApplicationController
 
   end
 
+  
+
   def create
     party = Party.create(party_params.merge({user_id: current_user.id}))
     current_table = Table.find(party.table_id)

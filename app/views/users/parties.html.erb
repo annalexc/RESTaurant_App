@@ -1,17 +1,24 @@
 <div class="ui text container">
 <%= render 'navigation' %>
   <div class="ui center aligned vertical segment">
-    <h5 class="ui inverted header main-menu">Your Parties</h5>
-    <div class="ui centered grid">
-      <div class="ui vertical segment"></div>
-        <% @active_parties.each do |party| %>
-      
-          <%= link_to(party_path(party.id), class: 'ui center aligned huge icon header') do %>
-            <i class="circular inverted orange users icon"></i>
-            <h2 class="ui inverted header">Table <%= party.table.table_num %>
+    <h5 class="ui inverted header secondary-font main-menu">Your Parties</h5>
+      <div class="ui hidden divider"></div>
+        
+        <% if @active_parties.size < 1 %>
+          <div class="white content">You have no active parties.</div>
+          <div class="ui hidden divider"></div>
+          <%= link_to "SO LET'S PARTY!", parties_path, class: "ui huge inverted secondary-font button" %>
+
+        <% else %>
+         <div class="ui centered grid">
+          <% @active_parties.each do |party| %>
+            <%= link_to(party_path(party.id), class: 'ui center aligned huge icon header') do %>
+              <i class="circular inverted orange users icon"></i>
+              <h2 class="ui inverted header">Table <%= party.table.table_num %>
               <div class="ui sub header">Party of <%= party.size %></div>
-            </h2>
-            
+              </h2>  
+            <% end %>
+          
           <% end %>
         <% end %>
       </div>

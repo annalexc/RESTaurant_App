@@ -1,6 +1,6 @@
 <div class="ui text container">
-<i class='close-modal big red remove circle icon'></i>
 <div class="ui form selection">
+<i class='close-modal big red remove circle icon'></i>
   <div class="ui padded segment">
     <div class="ui header item-header"></div>
       <%= form_for @new_order , url: customer_orders_path(@customer.id) do |f| %>   
@@ -16,7 +16,7 @@
           <%= f.text_field :comments %>
         </div>
        
-          <%= f.submit 'Add To Order', :class => 'ui right teal button' %>
+          <%= f.submit 'Add To Order', :class => 'ui button' %>
       <% end %>
   </div>
 </div>

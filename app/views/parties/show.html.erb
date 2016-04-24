@@ -8,7 +8,7 @@
   <%= render 'navigation' %>
   <div class="ui center aligned vertical segment">
 
-  <h5 class="ui inverted header main-menu">Party of <%= @party.size %></h5>
+  <h5 class="ui inverted header secondary-font main-menu">Party of <%= @party.size %></h5>
 
 
   <div class="ui centered grid">
@@ -24,16 +24,21 @@
     </div>
 
 <div class="ui hidden divider"></div>
-<button class="ui secondary button view-receipt">
+<button class="ui secondary button modal-trigger">
   View Receipt
 </button>
 
 </div>
-  
-<div class="receipt-modal">
-  <%= render 'partyreceipt' %>
+<!-- Receipt Modal -->
+<div class='modal'>
+  <div class='modal-body'>
+    <div class='modal-content'>
+      <%= render 'partyreceipt' %>
+    </div>
+  </div>
 </div>
 
+</div>
 
 
 

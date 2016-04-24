@@ -1,61 +1,57 @@
-
-<h2 class="ui header"> View Receipt
-  <div class="ui sub header">Table <%= @party.table.table_num %>, Party of <%= @party.size %></div>
-</h2>
-
-<div class="ui form">
-  <div class="ui padded segment"> 
-    <div class="ui two column centered grid"> 
-      <% @party.customers.each do |customer| %> 
-        <% customer_subtotal = 0 %>
-        <div class="row">
-          <div class="sixteen wide mobile nine wide tablet nine wide computer column">
-            <h3 class="ui left aligned header">Guest <%= customer.customer_num %> Order</h3>
-          </div>
-        </div>
-      
-        <% customer.orders.each do |order| %>
+<div class="ui text container">
+  <div class="ui form">
+    <div class="ui segment"> 
+      <div class="ui two column centered receipt grid"> 
+        <% @party.customers.each do |customer| %> 
+          <% customer_subtotal = 0 %>
           <div class="row">
-            <div class="twelve wide mobile six wide tablet six wide computer column">
-              <%= order.item.description %>
+            <div class="sixteen wide mobile nine wide tablet nine wide computer column">
+              <h3 class="ui left aligned header">Guest <%= customer.customer_num %> Order</h3>
+            </div>
+          </div>
+        
+          <% customer.orders.each do |order| %>
+            <div class="row">
+              <div class="twelve wide mobile six wide tablet six wide computer column">
+                <%= order.item.description %>
+              </div>
+              <div class="four wide mobile three wide tablet three wide computer column">
+                <%= number_to_currency(order.item.price) %>
+                  <% customer_subtotal = customer_subtotal + order.item.price %>
+              </div>
+            </div>
+          <% end %>
+          <div class="ui fitted divider"></div>
+          <div class="subtotal row">
+            <div class="right aligned twelve wide mobile six wide tablet six wide computer column">
+              Sub-Total :
             </div>
             <div class="four wide mobile three wide tablet three wide computer column">
-              <%= number_to_currency(order.item.price) %>
-                <% customer_subtotal = customer_subtotal + order.item.price %>
+              <%= number_to_currency(customer_subtotal) %>
             </div>
           </div>
         <% end %>
-        <div class="ui fitted divider"></div>
-        <div class="subtotal row">
+        <div class="row">
           <div class="right aligned twelve wide mobile six wide tablet six wide computer column">
-            Sub-Total :
+            <h3 class="ui teal header">TOTAL :</h3>
           </div>
           <div class="four wide mobile three wide tablet three wide computer column">
-            <%= number_to_currency(customer_subtotal) %>
+            <h4 class="ui teal header"><%= number_to_currency(@total) %></h4>
           </div>
         </div>
-      <% end %>
-      <div class="row">
-        <div class="right aligned twelve wide mobile six wide tablet six wide computer column">
-          <h3 class="ui teal header">TOTAL :</h3>
-        </div>
-        <div class="four wide mobile three wide tablet three wide computer column">
-          <h4 class="ui teal header"><%= number_to_currency(@total) %></h4>
-        </div>
       </div>
-    </div>
-  <div class="hidden ui divider"></div>
-  <div class="hidden ui divider"></div>
+      <div class="hidden ui divider"></div>
+      <div class="hidden ui divider"></div>
 
-  <!-- CHECKOUT BUTTON -->
-  <!-- This will set the party attribute `is_paid` to 1 -->
-  <%= form_for @party do |f| %> 
-    <%= f.hidden_field :is_paid, value: 1 %>
-    <div class="ui center aligned container">
-      <%= f.submit 'Checkout', :class => 'ui big teal button' %>
+      <!-- CHECKOUT BUTTON -->
+      <!-- This will set the party attribute `is_paid` to 1 -->
+      <%= form_for @party do |f| %> 
+        <%= f.hidden_field :is_paid, value: 1 %>
+        <div class="ui center aligned container">
+          <%= f.submit 'Checkout', :class => 'ui big teal button' %>
+        </div>
+      <% end %> 
+      <!-- CHECKOUT BUTTON END -->
     </div>
-  <% end %> 
-  <!-- CHECKOUT BUTTON END -->
-
-</div>
+  </div>
 </div>

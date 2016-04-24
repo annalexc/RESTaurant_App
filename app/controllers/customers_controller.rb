@@ -4,27 +4,38 @@ class CustomersController < ApplicationController
     @customers = Customer.all.order(:id)
   end
 
-  def menu
-    @customer = Customer.find(params[:id])
-    @items = Item.all
-    @drinks = Item.where(itype_id: [1,2,3,4])
-    @appetizers = Item.where(itype_id: 5)
-    @entrees = Item.where(itype_id: 6)
-    @desserts = Item.where(itype_id: 7)
-    @sides = Item.where(itype_id: 8)
-    @new_order = Order.new
-    @order_size = Order.where(customer_id: @customer.id).size
-  end
 
   def show
     @customer = Customer.find(params[:id])
-    @items = Item.all
-    @drinks = Item.where(itype_id: [1,2,3,4])
-    @appetizers = Item.where(itype_id: 5)
-    @entrees = Item.where(itype_id: 6)
-    @desserts = Item.where(itype_id: 7)
-    @sides = Item.where(itype_id: 8)
-    @new_order = Order.new
+
+    @drinks = [1,2,3,4]
+    @appetizers = 5
+    @entrees = 6
+    @desserts = 7
+    @sides = 8
+    @num_drinks = 0
+    @num_apps = 0
+    @num_entrees = 0
+    @num_desserts = 0
+    @num_sides = 0
+
+    @customer.orders.each do |order|
+      if @drinks.include?order.item.itype_id 
+        @num_drinks += 1
+      elsif order.item.itype_id == @appetizers
+        @num_apps += 1
+      elsif order.item.itype_id == @entrees
+        @num_entrees += 1
+      elsif order.item.itype_id == @desserts
+        @num_desserts += 1
+      elsif order.item.itype_id == @sides
+        @num_sides += 1
+      end
+    end
+
+
+    
+
     @order_size = Order.where(customer_id: @customer.id).size
   end
 

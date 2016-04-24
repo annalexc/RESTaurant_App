@@ -3,4 +3,114 @@
   <%= render 'navigation' %>
   <div class="ui center aligned vertical segment">
 
-  <h5 class="ui inverted header main-menu">Guest <%= @customer.customer_num %> Order</h5>
+  <h5 class="ui inverted header secondary-font main-menu">Guest <%= @customer.customer_num %> Order</h5>
+
+  <h3 class="ui orange horizontal divider header">Drinks</h3>
+    <div class="ui two column centered grid"> 
+      <% if @num_drinks == 0 %>
+        <div class="italic dimmed row"> No drinks ordered. </div>
+      <% else %>
+        <% @customer.orders.each do |order| %>
+        <% if @drinks.include?order.item.itype_id %>
+          <div class="row">
+            <div class="twelve wide mobile six wide tablet six wide computer column">
+              <%= order.item.description %>
+            </div>
+            <div class="four wide mobile three wide tablet three wide computer column">
+              <%= number_to_currency(order.item.price) %>
+            </div>
+          </div>
+        <% end %>
+      <% end %>
+    <% end %>
+    </div>
+    <div class="ui hidden divider"></div>
+
+    <h3 class="ui orange horizontal divider header">Appetizers</h3>
+    <div class="ui two column centered grid"> 
+      <% if @num_apps == 0 %>
+        <div class="italic dimmed row"> No appetizers ordered. </div>
+      <% else %>
+        <% @customer.orders.each do |order| %>
+        <% if order.item.itype_id == @appetizers %>
+          <div class="row">
+            <div class="twelve wide mobile six wide tablet six wide computer column">
+              <%= order.item.description %>
+            </div>
+            <div class="four wide mobile three wide tablet three wide computer column">
+              <%= number_to_currency(order.item.price) %>
+            </div>
+          </div>
+        <% end %>
+      <% end %>
+    <% end %>
+    </div>
+    <div class="ui hidden divider"></div>
+
+    <h3 class="ui orange horizontal divider header">Entrees</h3>
+    <div class="ui two column centered grid"> 
+      <% if @num_entrees == 0 %>
+        <div class="italic dimmed row"> No entrees ordered. </div>
+      <% else %>
+        <% @customer.orders.each do |order| %>
+        <% if order.item.itype_id == @entrees %>
+          <div class="row">
+            <div class="twelve wide mobile six wide tablet six wide computer column">
+              <%= order.item.description %>
+            </div>
+            <div class="four wide mobile three wide tablet three wide computer column">
+              <%= number_to_currency(order.item.price) %>
+            </div>
+          </div>
+        <% end %>
+      <% end %>
+    <% end %>
+    </div>
+    <div class="ui hidden divider"></div>
+
+    <h3 class="ui orange horizontal divider header">Desserts</h3>
+    <div class="ui two column centered grid"> 
+      <% if @num_desserts == 0 %>
+        <div class="italic dimmed row"> No desserts ordered. </div>
+      <% else %>
+        <% @customer.orders.each do |order| %>
+        <% if order.item.itype_id == @desserts %>
+          <div class="row">
+            <div class="twelve wide mobile six wide tablet six wide computer column">
+              <%= order.item.description %>
+            </div>
+            <div class="four wide mobile three wide tablet three wide computer column">
+              <%= number_to_currency(order.item.price) %>
+            </div>
+          </div>
+        <% end %>
+      <% end %>
+    <% end %>
+    </div>
+    <div class="ui hidden divider"></div>
+
+    <h3 class="ui orange horizontal divider header">Sides</h3>
+    <div class="ui two column centered grid"> 
+      <% if @num_sides == 0 %>
+        <div class="italic dimmed row"> No sides ordered. </div>
+      <% else %>
+        <% @customer.orders.each do |order| %>
+        <% if order.item.itype_id == @sides %>
+          <div class="row">
+            <div class="twelve wide mobile six wide tablet six wide computer column">
+              <%= order.item.description %>
+            </div>
+            <div class="four wide mobile three wide tablet three wide computer column">
+              <%= number_to_currency(order.item.price) %>
+            </div>
+          </div>
+        <% end %>
+      <% end %>
+    <% end %>
+    </div>
+
+
+
+
+
+</div>

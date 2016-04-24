@@ -3,39 +3,38 @@
 <!-- As a user, I want to be able to: -->
 <!-- (1) VIEW all tables, including indiciations of whether those tables are available or not -->
 <!-- (2) SELECT a table to subsequently add a party -->
-<div class="ui center aligned vertical segment">
-    <h1>View All Tables</h1>
-    <p>Select an available table to assign a new party </p>
-    
-    <!-- HOME BUTTON here for now.... -->
-    <a href="/users/landing" class="ui yellow right labeled icon button">
-      <i class="home icon"></i>Home </a>
-    <div class="ui hidden divider"></div>
-    <!-- HOME BUTTON END -->
-    
-    <div class="ui centered grid">
-      <% @tables.each do |table| %>
-        <% if table.is_available == 1 %>
-          <%= link_to(new_table_party_path(table.id), class: 'selectable-table') do %>
-            <div class="ui circular segment">
-              <h3 class="ui header">Table <%= table.table_num %>
-                <div class="sub header">Seats: <%= table.num_seats %></div>
-              </h3>
-              <div class="ui bottom attached teal label">Free</div>
+
+
+<div class="ui text container">
+  <%= render 'newpartynav1' %>
+  <div class="ui center aligned vertical segment">
+    <h5 class="ui inverted header secondary-font main-menu">Select a Table</h5>
+    <div class="hidden ui divider"></div>
+      <div class="ui centered grid">
+        <div class="ui vertical segment"></div>
+        <% @tables.each do |table| %>
+          <% if table.is_available == 1 %>
+            <%= link_to(new_table_party_path(table.id), class: 'selectable-table') do %>
+              <div class="ui circular segment">
+                <h3 class="ui header">Table <%= table.table_num %>
+                  <div class="sub header">Seats: <%= table.num_seats %></div>
+                </h3>
+                <div class="ui bottom attached orange label">Free</div>
+              </div>
+            <% end %>
+          <% else %>
+            <div class='unselectable-table'>
+              <div class="ui circular segment">
+                <h3 class="ui disabled header">Table <%= table.table_num %>
+                  <div class="sub header">Seats: <%= table.num_seats %></div>
+                </h3>
+                <div class="ui bottom attached label">Unavailable</div>
+              </div>
             </div>
           <% end %>
-        <% else %>
-          <div class='unselectable-table'>
-            <div class="ui circular segment">
-              <h3 class="ui disabled header">Table <%= table.table_num %>
-                <div class="sub header">Seats: <%= table.num_seats %></div>
-              </h3>
-              <div class="ui bottom attached label">Unavailable</div>
-            </div>
-          </div>
         <% end %>
-      <% end %>
-    </div>
+      </div>
+  </div>
 </div>
 
 

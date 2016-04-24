@@ -16,8 +16,17 @@
 
 $(function(){
 
+  if ($('#login-box').length) {
+    $('.launch.icon.item').addClass('no-display');
+  };
+
   $('.top.sidebar').sidebar('attach events', '.toggle-button');
-    
+  $('.modal-content').css('max-height', $('html').height() + 100 + 'px');    
+
+  $(window).resize(function() {
+    $('.modal-content').css('max-height', $('html').height() + 100 + 'px');
+  });
+
 
   // SHOW MODAL functionality for CUSTOMER ORDER SELECTION
   $('.modal-trigger').on('click', function(){
