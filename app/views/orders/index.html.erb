@@ -1,0 +1,21 @@
+<div class="ui text container">
+<!-- Render Menu Here  -->  
+  <div class="ui center aligned vertical segment">
+    <h5 class="ui inverted header secondary-font main-menu">OPEN ORDERS</h5>
+    <div class="hidden ui divider"></div>
+      <div class="ui centered doubling cards">
+        <% @open_orders.each do |order| %>
+          <div class="card">
+            <div class="header">Table <%= order.customer.party.table.table_num %></div>            
+            <div class="content">
+              <%= order.item.description %>
+            </div>
+          </div>
+        <% end %>
+      </div>
+  </div>
+</div>
+
+
+
+
