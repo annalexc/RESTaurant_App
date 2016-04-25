@@ -15,14 +15,18 @@ class PartiesController < ApplicationController
   def show
     @party = Party.find(params[:id])
     @customers = Customer.where(party_id: @party.id)
-    @total = 0
+    @subtotal = 0
     @customers.each do |customer|
       customer.orders.each do |order|
-        @total += order.item.price
+        @subtotal += order.item.price
       end
-      @total_bill = @total
     end
 
+    @tax = @subtotal * 0.08875
+    @total = @subtotal + @tax
+    @fifteen = 0.15*@total
+    @twenty = 0.20*@total
+    @twentyfive = 0.25*@total
   end
 
   

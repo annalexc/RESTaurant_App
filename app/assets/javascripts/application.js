@@ -21,7 +21,7 @@ $(function(){
   };
 
   $('.top.sidebar').sidebar('attach events', '.toggle-button');
-  $('.modal-content').css('max-height', $('html').height() - 10 + 'px');    
+  $('.modal-content').css('max-height', $('html').height() - 20 + 'px');    
 
   $(window).resize(function() {
     $('.modal-content').css('max-height', $('html').height() - 10 + 'px');

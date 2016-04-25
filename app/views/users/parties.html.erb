@@ -1,15 +1,15 @@
 <div class="ui text container">
 <%= render 'navigation' %>
   <div class="ui center aligned vertical segment">
-    <h5 class="ui inverted header secondary-font main-menu">Your Parties</h5>
+    <h5 class="ui inverted header secondary-font main-menu">YOUR PARTIES</h5>
       <div class="ui centered grid">
       
-        <div class="ui vertical segment">
+        <div class="ui vertical segment"></div>
           <% if @active_parties.size < 1 %>
             <div class="white content">You have no active parties.</div><br>
             <div class="ui hidden divider"></div>
             <%= link_to "SO LET'S PARTY!", parties_path, class: "ui huge inverted secondary-font button" %>
-            </div>
+  
           <% else %>
          
           <% @active_parties.each do |party| %>

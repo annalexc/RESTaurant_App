@@ -51,10 +51,8 @@ body.pushable {
 }
 
 .page-wrapper {
-  background-image: url('lights-small.png');
+  background: url('lights.png') fixed no-repeat;
   background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
 }
 
 .welcome {
@@ -74,7 +72,7 @@ body.pushable {
   left: 0;
   width: 100%;
   height: 100%;
-  overflow: auto !important;
+  overflow: scroll !important;
 }
 
 
@@ -102,8 +100,6 @@ body.pushable {
   text-align: center;
   overflow: scroll;
 }
-
-
 
 
 .ui.secondary.menu {
@@ -168,7 +164,9 @@ input[type="number"].inverted {
   color: black !important;
 }
 
-
+.receipt >.row {
+  padding-top: 7px !important;
+}
 
 
 /* Modal Styling */
@@ -180,7 +178,8 @@ input[type="number"].inverted {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, .5);
-  overflow: auto;
+  overflow: scroll;
+  z-index: 5;
 }
 
 .modal-body {
@@ -192,7 +191,7 @@ input[type="number"].inverted {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: visible;
+  overflow: scroll;
 }
 
 .modal-content {
@@ -204,7 +203,7 @@ input[type="number"].inverted {
 .close-modal {
   position: absolute;
   z-index: 10;
-  top: 4%;
+  top: 2%;
   right: 0;
 }
 
@@ -220,10 +219,6 @@ input[type="number"].inverted {
   padding-bottom: 0;
   color: white;
 }
-
-
-
-
 
 
 
@@ -274,6 +269,9 @@ a.item:hover { color: rgba(224,157,98,1) !important; }
   margin: 7px 0;
 }
 
+div.ui.fitted.divider {
+  margin: 10px !important;
+}
 
 .menu-column {
   padding-right: 0 !important;
@@ -294,18 +292,18 @@ a.item:hover { color: rgba(224,157,98,1) !important; }
   .close-modal {
     position: absolute;
     z-index: 10;
-    top: -4%;
+    top: 2%;
     right: 0;
   }
 
-.ui.vertical.inverted.sidebar.menu.top {
-  background: url('lights-small-transparent.png') no-repeat fixed;
-  background-size: cover;
-  background-position: top right;
-  background-color: rgba(0,0,0,0.65);
-  text-align: center;
-  overflow: scroll;
-}
+  .ui.vertical.inverted.sidebar.menu.top {
+    background: url('lights-small-transparent.png') no-repeat fixed;
+    background-size: cover;
+    background-position: top right;
+    background-color: rgba(0,0,0,0.65);
+    text-align: center;
+    overflow: scroll;
+  }
 
   .section-header {
     font: 2.25em 'Grand Hotel';
