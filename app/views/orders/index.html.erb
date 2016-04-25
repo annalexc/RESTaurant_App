@@ -6,9 +6,13 @@
       <div class="ui centered doubling cards">
         <% @open_orders.each do |order| %>
           <div class="card">
-            <div class="header">Table <%= order.customer.party.table.table_num %></div>            
+            <div class="header">
+              <h2 class="ui header">Table <%= order.customer.party.table.table_num %></h2></div>            
             <div class="content">
               <%= order.item.description %>
+            </div>
+            <div class="extra content">
+              Submitted at <%= order.item.created_at.to_formatted_s(:short) %>
             </div>
           </div>
         <% end %>
