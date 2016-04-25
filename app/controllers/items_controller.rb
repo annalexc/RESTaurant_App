@@ -40,8 +40,8 @@ class ItemsController < ApplicationController
 
 
   def destroy
-    Item.destroy params[:id]
-    redirect_to items_path
+    # Item.destroy params[:id]
+    # redirect_to items_path
   end
 
   private

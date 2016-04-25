@@ -29,7 +29,7 @@
         </h2> 
       </div>
         
-      <%= link_to "YOUR PARTIES", user_parties_path, class: 'inverted header secondary-font main-menu' %>
+      <%= link_to "MANAGE PARTIES", user_parties_path, class: 'inverted header secondary-font main-menu' %>
       <div class="ui hidden fitted divider"></div>
       <%= link_to "ADD NEW PARTY", parties_path, class: 'inverted header secondary-font main-menu' %>
       
@@ -40,6 +40,7 @@
           The Kitchen <i class="small fitted spoon icon"></i>
         </h2> 
       </div>
+      <a class="inverted header secondary-font main-menu">MANAGE ORDERS</a>
        
 
       <!-- THE HOUSE -->
@@ -52,8 +53,8 @@
       <div class="ui hidden fitted divider"></div>
       <%= link_to "MANAGE TABLE LIST", tables_path, class: 'inverted header secondary-font main-menu' %>
 
-      <div class="ui hidden divider"></div>
-      <%= link_to "LOG OUT", destroy_session_path, method: :delete, class: 'ui big inverted logout secondary-font button' %>
+      <p></p>
+      <%= link_to "LOG OUT", destroy_session_path, method: :delete, class: 'ui huge inverted logout secondary-font button' %>
       
       <div class="ui hidden divider"></div>
       </div>

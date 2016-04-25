@@ -4,6 +4,7 @@
   <div class="ui center aligned vertical segment">
   <h5 class="ui inverted header secondary-font main-menu">Guest <%= @customer.customer_num %> Order</h5>
 
+<div class="ui thinner text container">
   <h3 class="ui orange horizontal divider header">Drinks</h3>
     <div class="ui two column centered grid"> 
       <% if @num_drinks == 0 %>
@@ -12,10 +13,16 @@
         <% @customer.orders.each do |order| %>
         <% if @drinks.include?order.item.itype_id %>
           <div class="row">
-            <div class="twelve wide mobile six wide tablet six wide computer column">
+            
+
+
+            <div class="thirteen wide column menu-column">
+            <%= link_to customer_order_path(@customer.id, order.id), method: 'delete', class: "white item" do %>
+              <i class="left floated orange remove icon"></i>
+            <% end %>
               <%= order.item.description %>
             </div>
-            <div class="four wide mobile three wide tablet three wide computer column">
+            <div class="three wide column">
               <%= number_to_currency(order.item.price) %>
             </div>
           </div>
@@ -33,10 +40,13 @@
         <% @customer.orders.each do |order| %>
         <% if order.item.itype_id == @appetizers %>
           <div class="row">
-            <div class="twelve wide mobile six wide tablet six wide computer column">
+            <div class="thirteen wide column menu-column">
+              <%= link_to customer_order_path(@customer.id, order.id), method: 'delete', class: "white item" do %>
+              <i class="left floated orange remove icon"></i>
+            <% end %>
               <%= order.item.description %>
             </div>
-            <div class="four wide mobile three wide tablet three wide computer column">
+            <div class="three wide column">
               <%= number_to_currency(order.item.price) %>
             </div>
           </div>
@@ -54,10 +64,13 @@
         <% @customer.orders.each do |order| %>
         <% if order.item.itype_id == @entrees %>
           <div class="row">
-            <div class="twelve wide mobile six wide tablet six wide computer column">
+            <div class="thirteen wide column menu-column">
+              <%= link_to customer_order_path(@customer.id, order.id), method: 'delete', class: "white item" do %>
+              <i class="left floated orange remove icon"></i>
+            <% end %>
               <%= order.item.description %>
             </div>
-            <div class="four wide mobile three wide tablet three wide computer column">
+            <div class="three wide column">
               <%= number_to_currency(order.item.price) %>
             </div>
           </div>
@@ -75,10 +88,13 @@
         <% @customer.orders.each do |order| %>
         <% if order.item.itype_id == @desserts %>
           <div class="row">
-            <div class="twelve wide mobile six wide tablet six wide computer column">
+            <div class="thirteen wide column menu-column">
+              <%= link_to customer_order_path(@customer.id, order.id), method: 'delete', class: "white item" do %>
+              <i class="left floated orange remove icon"></i>
+            <% end %>
               <%= order.item.description %>
             </div>
-            <div class="four wide mobile three wide tablet three wide computer column">
+            <div class="three wide column">
               <%= number_to_currency(order.item.price) %>
             </div>
           </div>
@@ -96,16 +112,21 @@
         <% @customer.orders.each do |order| %>
         <% if order.item.itype_id == @sides %>
           <div class="row">
-            <div class="twelve wide mobile six wide tablet six wide computer column">
+            <div class="thirteen wide column menu-column">
+              <%= link_to customer_order_path(@customer.id, order.id), method: 'delete', class: "white item" do %>
+              <i class="left floated orange remove icon"></i>
+            <% end %>
               <%= order.item.description %>
             </div>
-            <div class="four wide mobile three wide tablet three wide computer column">
+            <div class="three wide column">
               <%= number_to_currency(order.item.price) %>
             </div>
           </div>
         <% end %>
       <% end %>
     <% end %>
+    </div>
+
     </div>
 
 
