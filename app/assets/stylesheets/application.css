@@ -296,6 +296,15 @@ a.item { padding: 13px 8px !important; }
     right: 0;
   }
 
+.ui.vertical.inverted.sidebar.menu.top {
+  background: url('lights-small-transparent.png') no-repeat fixed;
+  background-size: cover;
+  background-position: top right;
+  background-color: rgba(0,0,0,0.65);
+  text-align: center;
+  overflow: scroll;
+}
+
   .section-header {
     font: 2.25em 'Grand Hotel';
     line-height: 1;
