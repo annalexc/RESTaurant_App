@@ -6,8 +6,10 @@
       
         <div class="ui vertical segment"></div>
           <% if @active_parties.size < 1 %>
-            <div class="white content">You have no active parties.</div><br>
+            <div class="white content">You have no active parties.</div>
+            <p></p>
             <div class="ui hidden divider"></div>
+            <p></p>
             <%= link_to "SO LET'S PARTY!", parties_path, class: "ui huge inverted secondary-font button" %>
   
           <% else %>
