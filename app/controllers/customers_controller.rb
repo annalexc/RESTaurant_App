@@ -31,12 +31,10 @@ class CustomersController < ApplicationController
       elsif order.item.itype_id == @sides
         @num_sides += 1
       end
-    end
-
-
-    
+    end    
 
     @order_size = Order.where(customer_id: @customer.id).size
+  
   end
 
   def new

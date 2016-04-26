@@ -7,7 +7,13 @@ class OrdersController < ApplicationController
     # @orders = Order.where(customer_id: @customer.id)
     @open_orders = Order.where(is_completed: 0).order(:created_at)
 
-   
+    # @items = Item.all
+    # @drinks = Item.where(itype_id: [1,2,3,4])
+    # @appetizers = Item.where(itype_id: 5)
+    # @entrees = Item.where(itype_id: 6)
+    # @desserts = Item.where(itype_id: 7)
+    # @sides = Item.where(itype_id: 8)
+  
   end
 
   def new
@@ -50,14 +56,13 @@ class OrdersController < ApplicationController
   end
 
   def update
-    
+    order = Order.find(params[:id])
+    order.update(order_params)
+    redirect_to orders_path
   end
 
 
   def destroy
-    customer = Customer.find(params[:customer_id])
-    Order.destroy params[:id]
-    redirect_to customer_path(customer.id)
   
   end
 

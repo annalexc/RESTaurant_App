@@ -11,7 +11,7 @@ Rails.application.routes.draw do
 
   resources :items
 
-  get '/orders'           => "orders#index"
+  resources :orders
   # resources :parties
   resources :parties
   get '/users/login'      => "users#login", as: :login
