@@ -9,13 +9,7 @@
 </head>
 <body class="ui container" id="bg-main">
   
-  <!-- LAUNCH ICON -->
-  <div class="launch icon item">
-    <i class="big icons">
-      <i class="small circular inverted orange sidebar icon toggle-button"></i>
-    </i>
-  </div>
-
+  
 
   <!-- MAIN DROPDOWN MENU -->
   <div class="ui vertical inverted centered sidebar menu top">
@@ -63,11 +57,18 @@
 
 
   <!-- SITE CONTENT -->
-   <div class="site-wrapper">
+   <!-- LAUNCH ICON -->
+  
+
+  <div class="site-wrapper">
     <%= yield %>
   </div>
-   <div class="pusher">
-    
+  <div class="launch icon item">
+    <i class="big icons">
+      <i class="small circular inverted orange sidebar icon toggle-button"></i>
+    </i>
+  </div>
+  <div class="pusher">
   </div>
 
 
