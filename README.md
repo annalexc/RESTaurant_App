@@ -24,8 +24,8 @@ _**Wireframes**_
 ### Design Considerations
 1. **Mobile Responsive Design:** Because the target end user would likely need this app to be avaialble on smaller devices (to accommodate a busy, ever-changing environment), my top focus was on a **mobile first, "thumb-friendly" design**. I opted for a clean, uncluttered layout with larger, easy to identify "touch" elements and interaction points.
 2. **Ease of Navigation:** I wanted to minimize the number of navigational screens and largely simplify/consolidate the steps required to create a party and compile customer orders. I decided to incorporate:
-    * A drop-down menu to highlight and facilitate quick navigation to major sections of interest within the app (e.g. Viewing/Adding Parties, Managing Menu Items, etc.).
-    * A visual representation of available and unavailable tables for party assignment
+    * A drop-down menu to highlight and facilitate quick navigation to major sections of interest within the app (e.g. Viewing/Adding Parties, Managing Menu Items, etc.)
     * An interactive breadcrumb menu during order creation 
+    * A visual representation of available and unavailable tables for party assignment
     * The ability to quickly iterate through customer orders for a given party
 
