@@ -87,7 +87,7 @@ body.pushable {
     rgba(255,255,255,0.05) 30px, 
     rgba(255,255,255,0.05) 60px) !important;
   /* End Linear Gradient*/
-  overflow: auto;
+  overflow: scroll;
   z-index: 4;
 }
 
@@ -107,13 +107,21 @@ body.pushable {
   margin-left: 8px;
 }
 
-.ui.vertical.inverted.sidebar.menu.top {
+.ui.vertical.dropdown-menu {
   background: url('lights-transparent.png') no-repeat fixed;
   background-size: cover;
-  background-color: rgba(0,0,0,0.65);
+  background-color: rgba(0,0,0,0.9);
   text-align: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  left: 0;
+  display: none;
+  padding-top: 20px; 
   overflow: scroll;
 }
+
 
 .ui.secondary.menu {
   margin: 0 auto;
@@ -147,14 +155,14 @@ body.pushable {
 }
 
 .page-header {
-  font: 2.5em 'Oswald';
+  font: 2.65em 'Oswald';
   text-align: center;
   margin-top: 40px;
 }
 
 .main-menu { 
-  font-size: 2.5em !important;
-  line-height: 1.7;
+  font-size: 2.6em !important;
+  line-height: 1.5;
 }
 
 input[type="text"].inverted, input[type="password"].inverted, input[type="number"].inverted {
@@ -309,13 +317,14 @@ div.ui.fitted.divider { margin: 10px !important; }
     right: 0;
   }
 
-  .ui.vertical.inverted.sidebar.menu.top {
+  .ui.vertical.dropdown-menu {
     background: url('lights-small-transparent.png') no-repeat fixed;
+    background-color: rgba(0,0,0,0.9);
     background-size: cover;
     background-position: top right;
-    background-color: rgba(0,0,0,0.65);
     text-align: center;
     overflow: scroll;
+
   }
 
   .section-header {
@@ -329,8 +338,8 @@ div.ui.fitted.divider { margin: 10px !important; }
   }
 
   .main-menu { 
-    font-size: 2.3em !important;
-    line-height: 1.65;
+    font-size: 2.45em !important;
+    line-height: 1.25;
   }
 
 }

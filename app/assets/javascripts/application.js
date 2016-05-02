@@ -17,10 +17,24 @@
 $(function(){
 
   if ($('#login-box').length) {
-    $('.launch.icon.item').addClass('no-display');
+    $('.launch-icon').addClass('no-display');
   };
 
-  $('.top.sidebar').sidebar('attach events', '.toggle-button');
+  // $('.top.sidebar').sidebar('attach events', '.toggle-button');
+
+  $( '.launch-icon' ).click(function () {
+    $dropdown = $( ".dropdown-menu" );
+    if ($dropdown.is(':hidden')) {
+
+      $dropdown.slideDown(500);
+    } else {
+      $dropdown.slideUp(500);
+    };
+  });
+
+
+
+
   $('.modal-content').css('max-height', $('html').height() - 20 + 'px');    
 
   $(window).resize(function() {
