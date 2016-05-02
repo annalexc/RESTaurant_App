@@ -15,7 +15,7 @@ _**Wireframes**_
 
 
 ### High-Level User Stories
-_**As an end user, I want to be able to...**_
+####_**As an end user, I want to be able to...**_
 - Efficiently keep track of orders per table with as little error as possible, so that I can deliver the requested orders
 - Expedite the process of delivering what is ordered in the most efficient manner
 - Turn over tables quickly, and thus increase the amount of people that can be served
